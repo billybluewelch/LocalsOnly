@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>LocalsOnly — Nashville recommendations</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container row">
+      <div class="brand">
+        <div class="logo">LO</div>
+        <div class="brand-name">LocalsOnly</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-inner" id="get">
+        <div class="kicker">Nashville recommendations</div>
+
+        <h1>Tell us what you’re in the mood for.</h1>
+
+        <p class="sub">
+          We’ll match you with a short list of Nashville spots that fit your taste.
+        </p>
+
+        <div class="cta-block">
+          <form id="searchForm" class="cta-form">
+            <div class="cta-row">
+              <select name="category" required>
+                <option value="" disabled selected>Category</option>
+                <option>Food & Drink</option>
+                <option>Coffee</option>
+                <option>Brunch</option>
+                <option>Fitness</option>
+                <option>Services</option>
+                <option>Shopping</option>
+                <option>Things To Do</option>
+                <option>Family</option>
+                <option>Nightlife</option>
+              </select>
+
+              <input
+                name="neighborhood"
+                type="text"
+                placeholder="Neighborhood (e.g., East Nashville, The Gulch)"
+                required
+              />
+            </div>
+
+            <div class="cta-row">
+              <input
+                name="vibe"
+                type="text"
+                placeholder="Optional: cozy, patio, vegan, date night…"
+              />
+              <select name="distance">
+                <option value="2">Within 2 miles</option>
+                <option value="5" selected>Within 5 miles</option>
+                <option value="10">Within 10 miles</option>
+                <option value="any">Any distance</option>
+              </select>
+            </div>
+
+            <button class="btn cta-primary" type="submit">Get recommendations</button>
+
+            <div class="fine">
+              Try 1–3 vibe tags (e.g., “quiet”, “kid-friendly”, “late night”).
+            </div>
+          </form>
+        </div>
+
+        <div class="scrollhint">
+          <a href="#more">Scroll for weekly picks or to recommend a place</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="more" id="more">
+      <div class="divider"></div>
+
+      <div class="section">
+        <h2>Weekly picks</h2>
+        <p class="muted">
+          Get a short Nashville drop each week based on your area and taste.
+        </p>
+
+        <div class="card">
+          <form id="waitlistForm" class="inline-form">
+            <input name="email" type="email" placeholder="Email" required />
+            <input name="city" type="text" value="Nashville" required />
+            <button class="btn cta-primary" type="submit">Subscribe</button>
+          </form>
+          <div class="fine" id="waitlistMsg"></div>
+        </div>
+      </div>
+
+      <div class="section">
+        <details class="details">
+          <summary>Recommend a Nashville spot</summary>
+          <div class="card subtle">
+            <form id="recommendForm" class="stack-form">
+              <div class="grid">
+                <input name="name" type="text" placeholder="Business name" required />
+                <select name="category" required>
+                  <option value="" disabled selected>Category</option>
+                  <option>Food & Drink</option>
+                  <option>Coffee</option>
+                  <option>Brunch</option>
+                  <option>Fitness</option>
+                  <option>Services</option>
+                  <option>Shopping</option>
+                  <option>Things To Do</option>
+                  <option>Family</option>
+                  <option>Nightlife</option>
+                </select>
+              </div>
+              <div class="grid">
+                <input name="neighborhood" type="text" placeholder="Neighborhood (e.g., The Gulch)" required />
+                <input name="why" type="text" placeholder="One-line why it’s good" required />
+              </div>
+              <button class="btn ghost" type="submit">Submit</button>
+              <div class="fine" id="recommendMsg"></div>
+            </form>
+          </div>
+        </details>
+      </div>
+
+      <footer class="footer">
+        <div class="muted small">LocalsOnly — Nashville</div>
+      </footer>
+    </section>
+  </main>
+
+  <script src="./data.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>

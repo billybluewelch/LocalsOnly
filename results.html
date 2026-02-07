@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>LocalsOnly — Results</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container row">
+      <div class="brand">
+        <div class="logo">LO</div>
+        <div>
+          <div class="brand-name">LocalsOnly</div>
+          <div class="brand-tag">Starter recommendations</div>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="./index.html">Back</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container results">
+    <section class="results-head">
+      <div>
+        <h1 class="h2">Your starter picks</h1>
+        <p class="muted" id="summaryText"></p>
+      </div>
+    </section>
+
+    <section class="filters">
+      <div class="filter-row">
+        <label>
+          Sort
+          <select id="sortSelect">
+            <option value="match" selected>Best match</option>
+            <option value="rating">Highest rating</option>
+            <option value="price">Lowest price</option>
+          </select>
+        </label>
+
+        <label>
+          Price
+          <select id="priceSelect">
+            <option value="any" selected>Any</option>
+            <option value="$">$</option>
+            <option value="$$">$$</option>
+            <option value="$$$">$$$</option>
+          </select>
+        </label>
+
+        <label>
+          Open now
+          <select id="openSelect">
+            <option value="any" selected>Any</option>
+            <option value="open">Open</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="filter-row filter-row-2">
+        <input id="searchBox" class="search" type="text" placeholder="Search by name or tag (e.g., cozy, patio)" />
+        <button class="btn" id="resetBtn" type="button">Reset</button>
+      </div>
+    </section>
+
+    <section class="results-list">
+      <div class="muted small" id="countText"></div>
+      <div id="cards" class="cards"></div>
+
+      <div class="more-row">
+        <button class="btn" id="showMoreBtn" type="button">Show more</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="muted small">Edit <code>data.js</code> to change what shows up here.</div>
+    </footer>
+  </main>
+
+  <script src="./data.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
