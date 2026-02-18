@@ -1,0 +1,17 @@
+{
+  "name": "localsonly",
+  "version": "1.0.0",
+  "description": "This project is a small static prototype for our local directory and recommendations idea. The point of the prototype is showing our user flow and the UX, rather than shipping production code.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:data": "node scripts/build_datajs.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fast-glob": "^3.3.3",
+    "gray-matter": "^4.0.3"
+  }
+}
