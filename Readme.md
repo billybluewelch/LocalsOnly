@@ -77,3 +77,101 @@ A typical run starts with opening `index.html` in a browser tab. The browser loa
 A likely next step involves replacing `data.js` with our real listings. Another likely next step involves sending our waitlist signups to a real place, such as a spreadsheet, Airtable, Supabase, or a small backend endpoint.
 
 Other follow-ons often include richer listing fields like maps links and hours, a favorites feature, and a real submission flow for “recommend a spot.” Matching can also grow from simple keywords into something more personalized once our real user signals exist.
+
+## Benbro (or anyone) quickstart (generate `data.js` + test locally)
+
+Currently we pre-generate data.js using the markdown files. I imagine later on there will be a better way to scale, but this is a simple starting point.
+
+### 1) Clone the latest repo
+- Clone the latest version of the project to your machine and `cd` into it.
+
+use a terminal and go into the folder you wish to import this repository into.
+Use the command git clone https://github.com/billybluewelch/LocalsOnly.git 
+
+
+### 2) Add your recommendation markdown files
+- Create this folder in the root directory:
+  - `./localsonly_markdown/recommendations/`
+- Drop your `.md` files into that folder.
+- Each file should follow this schema (YAML frontmatter at the top of the markdown):
+
+```yaml
+---
+# =========================
+# REQUIRED (must be present)
+# =========================
+name: "Display Name"
+cuisine: "Category Name"              # ex: Food & Drink, Coffee, Brunch, etc.
+location:
+  city: "Nashville"
+  neighborhood: "Downtown"
+coordinates:
+  lat: 36.158803
+  lng: -86.778281
+address: "221 Broadway, Nashville, TN 37201"
+maps_url: "https://maps.app.goo.gl/..."
+price_range: "$$"                     # $, $$, $$$
+recommendation: "One-line why it’s good."
+permalink: "unique-stable-id"
+rating_proxy: 4.7
+
+# =========================
+# OPTIONAL (safe to omit)
+# =========================
+phone: "(615) 000-0000"
+website: "https://..."
+dining_type: "casual dining"
+dietary_options:
+  - "vegan options"
+top_dishes:
+  - "avocado toast"
+best_for:
+  - "weekend brunch"
+tags:
+  - "cozy"
+  - "patio"
+nearish:
+  - "music venues"
+image: "../images/example.jpg"
+
+hours_of_operation:
+  timezone: "America/Chicago"
+  hours:
+    monday:    ["08:00-15:00"]
+    tuesday:   ["08:00-15:00"]
+    wednesday: ["08:00-15:00"]
+    thursday:  ["08:00-15:00"]
+    friday:    ["08:00-15:00"]
+    saturday:  ["09:00-16:00"]
+    sunday:    []
+---
+```
+
+### 3) Install what you need to build
+- Install Node.js (LTS recommended).
+  - `brew install node`
+- From the repo root, install dependencies:
+  - `npm install`
+
+### 4) Build `data.js` from the markdown
+- Run the build script:
+  - `npm run build:data`
+- Confirm `data.js` updated (you should see a success message in the terminal).
+
+### 5) Run locally (don’t open the HTML by double-clicking)
+- Start a local static server from the repo root (pick one):
+  - `python3 -m http.server 8000`
+  - or `npx serve .`
+
+### 6) Test the app
+- Open in your browser:
+  - `http://localhost:8000/index.html` (if using Python on port 8000)
+- Submit the form and confirm:
+  - you land on `results.html`
+  - results appear
+  - results change when you change category / neighborhood / distance
+
+### Vital “gotchas” (so you don’t lose time)
+- **YAML must be valid** (quotes on strings with special chars, no tabs, consistent indentation).
+- **`permalink` must be unique** across all markdown files.
+
