@@ -3,6 +3,307 @@
 
 window.LOCALSONLY_DATA = [
   {
+    "id": "all-day",
+    "name": "All Day Cafe",
+    "category": "Food & Drink",
+    "neighborhoods": [
+      "Germantown"
+    ],
+    "price": "$$",
+    "rating": 7.8,
+    "tags": [
+      "food",
+      "east nashville"
+    ],
+    "why": "Just good, all-around food and vibe. Loved the breakfast burrito. Nothing crazy, just good ingredients that leave you satisfied.",
+    "phone": "",
+    "website": "https://www.waymoresnashville.com/restaurants-east-nashville",
+    "address": "811 Main St, Nashville, TN 37206",
+    "maps_url": "https://maps.app.goo.gl/VkRfRXHuMYfSxf9S9",
+    "image": "../images/all-day.jpg",
+    "top_dishes": [
+      "breakfast burrito",
+      "greek salad"
+    ],
+    "best_for": [
+      "breakfast",
+      "lunch"
+    ],
+    "dining_type": "casual dining",
+    "dietary_options": [],
+    "nearish": [
+      "coffee",
+      "5 points",
+      "not too far from ceremony"
+    ],
+    "coordinates": {
+      "lat": 0,
+      "lng": 0
+    },
+    "location": {
+      "city": "Nashville",
+      "neighborhood": "Germantown"
+    },
+    "hours": null,
+    "timezone": null
+  },
+  {
+    "id": "bastion",
+    "name": "Bastion",
+    "category": "Food & Drink",
+    "neighborhoods": [
+      "Wedgewood Houston"
+    ],
+    "price": "$$$$",
+    "rating": 9.6,
+    "tags": [
+      "food",
+      "wedgewood houston"
+    ],
+    "why": "One of the best restaurants, period. If you're into the tasting menu/pairing thing, you must try this place. Intimate and vibey, the staff, chefs and somm are incredible.",
+    "phone": "",
+    "website": "http://www.bastionnashville.com/",
+    "address": "434 Houston St STE 110, Nashville, TN 37203",
+    "maps_url": "https://maps.app.goo.gl/RTRUvWG35qR1FSVR7",
+    "image": "../images/unknown.jpg",
+    "top_dishes": [
+      "tasting menu",
+      "get the pairing but split it with someone or three people"
+    ],
+    "best_for": [
+      "dinner (very nice)"
+    ],
+    "dining_type": "casual dining",
+    "dietary_options": [],
+    "nearish": [
+      "Dicey's Tavern",
+      "shopping"
+    ],
+    "coordinates": {
+      "lat": 0,
+      "lng": 0
+    },
+    "location": {
+      "city": "Nashville",
+      "neighborhood": "Wedgewood Houston"
+    },
+    "hours": null,
+    "timezone": null
+  },
+  {
+    "id": "brave-idiot",
+    "name": "Brave Idiot",
+    "category": "Food & Drink",
+    "neighborhoods": [
+      "East Nashville"
+    ],
+    "price": "$$",
+    "rating": 7.2,
+    "tags": [
+      "food",
+      "east nashville"
+    ],
+    "why": "Food truck as food trucks should be. Permanently located near a fun bar.",
+    "phone": "",
+    "website": "http://braveidiot.com/",
+    "address": "Parked behind No Quarter, 922 Main St, Nashville, TN 37206",
+    "maps_url": "https://maps.app.goo.gl/oLpUkgEBLsbre7GT9",
+    "image": "../images/brave-idiot.jpg",
+    "top_dishes": [
+      "nashville hot chicken",
+      "chicken sandwich"
+    ],
+    "best_for": [
+      "lunch",
+      "dinner"
+    ],
+    "dining_type": "casual dining",
+    "dietary_options": [],
+    "nearish": [
+      "coffee",
+      "all-day cafe",
+      "cocktails",
+      "bars"
+    ],
+    "coordinates": {
+      "lat": 0,
+      "lng": 0
+    },
+    "location": {
+      "city": "Nashville",
+      "neighborhood": "East Nashville"
+    },
+    "hours": null,
+    "timezone": null
+  },
+  {
+    "id": "Cafe Roze",
+    "name": "Cafe Roze",
+    "category": "Food & Drink",
+    "neighborhoods": [
+      "East Nashville"
+    ],
+    "price": "$$$",
+    "rating": 9.2,
+    "tags": [
+      "food",
+      "east nashville"
+    ],
+    "why": "Our go-to neighborhood restaurant. They're open 7 days a week for breakfast, lunch and dinner. I'd say grab a reservation if you plan to visit.",
+    "phone": "",
+    "website": "https://www.caferoze.com/",
+    "address": "1115 Porter Rd, Nashville, TN 37206",
+    "maps_url": "https://maps.app.goo.gl/8ujYR16ccpfKbU669",
+    "image": "../images/unknown.jpg",
+    "top_dishes": [
+      "country ham toast",
+      "simple breakfast",
+      "broccoli melt (add grilled chicken)",
+      "oysters",
+      "pistola or martinez (cocktails)",
+      "preserved lemon labna",
+      "gnocchi",
+      "smoked trout dip",
+      "swordfish",
+      "the duck is just excellent",
+      "paprika chicken."
+    ],
+    "best_for": [
+      "breakfast",
+      "lunch & dinner (and great cocktails)"
+    ],
+    "dining_type": "casual dining",
+    "dietary_options": [],
+    "nearish": [],
+    "coordinates": {
+      "lat": 0,
+      "lng": 0
+    },
+    "location": {
+      "city": "Nashville",
+      "neighborhood": "East Nashville"
+    },
+    "hours": null,
+    "timezone": null
+  },
+  {
+    "id": "diceys",
+    "name": "Dicey's Tavern",
+    "category": "Food & Drink",
+    "neighborhoods": [
+      "Wedgewood Houston"
+    ],
+    "price": "$$",
+    "rating": 8.6,
+    "tags": [
+      "food",
+      "wedgewood houston"
+    ],
+    "why": "Chicago style tavern pizza. Thin, thin crust. Great topptings. Gluten-free available. Great salads. You can't go wrong. Great wine/beer selection as well.",
+    "phone": "",
+    "website": "https://www.diceystavern.com/",
+    "address": "425 Chestnut St, Nashville, TN 37203",
+    "maps_url": "https://maps.app.goo.gl/5UMoS2DufEsA2HnPA",
+    "image": "../images/unknown.jpg",
+    "top_dishes": [
+      "classic or specialty pizza (sausage recommended on everything)",
+      "peppy boy",
+      "salad."
+    ],
+    "best_for": [
+      "lunch",
+      "dinner (great vibe/casual)"
+    ],
+    "dining_type": "casual dining",
+    "dietary_options": [],
+    "nearish": [
+      "Bastion",
+      "shopping"
+    ],
+    "coordinates": {
+      "lat": 0,
+      "lng": 0
+    },
+    "location": {
+      "city": "Nashville",
+      "neighborhood": "Wedgewood Houston"
+    },
+    "hours": null,
+    "timezone": null
+  },
+  {
+    "id": "dinos",
+    "name": "Dino's",
+    "category": "Bar & Burgers",
+    "neighborhoods": [
+      "East Nashville"
+    ],
+    "price": "$$",
+    "rating": 4.7,
+    "tags": [],
+    "why": "",
+    "phone": "",
+    "website": "",
+    "address": "",
+    "maps_url": "",
+    "image": "",
+    "top_dishes": [],
+    "best_for": [],
+    "dining_type": "",
+    "dietary_options": [],
+    "nearish": [],
+    "coordinates": {
+      "lat": 36.181345575821474,
+      "lng": -86.74926171349242
+    },
+    "location": {
+      "city": "Nashville",
+      "neighborhood": "East Nashville"
+    },
+    "hours": null,
+    "timezone": null
+  },
+  {
+    "id": "dose",
+    "name": "Dose",
+    "category": "Food & Drink",
+    "neighborhoods": [
+      "East Nashville"
+    ],
+    "price": "$$",
+    "rating": 7.9,
+    "tags": [
+      "food",
+      "east nashville"
+    ],
+    "why": "Really nice cafe with great breakfast and good coffee. Laptop friendly.",
+    "phone": "",
+    "website": "https://dosenashville.com/pages/riverside",
+    "address": "1400 McGavock Pk, Nashville, TN 37216",
+    "maps_url": "https://maps.app.goo.gl/LNfiqGEx6Zm9v2r76",
+    "image": "../images/unknown.jpg",
+    "top_dishes": [
+      "rosemary buscuit sandwich (add provolone and a side of green chili sauce)"
+    ],
+    "best_for": [
+      "breakfast",
+      "coffee"
+    ],
+    "dining_type": "casual dining",
+    "dietary_options": [],
+    "nearish": [],
+    "coordinates": {
+      "lat": 0,
+      "lng": 0
+    },
+    "location": {
+      "city": "Nashville",
+      "neighborhood": "East Nashville"
+    },
+    "hours": null,
+    "timezone": null
+  },
+  {
     "id": "dummy-brunch-1",
     "name": "Dummy Brunch Place 1",
     "category": "Brunch",
@@ -1199,6 +1500,673 @@ window.LOCALSONLY_DATA = [
     "location": {
       "city": "Nashville",
       "neighborhood": "East Nashville"
+    },
+    "hours": null,
+    "timezone": null
+  },
+  {
+    "id": "elegy",
+    "name": "Elegy Coffee",
+    "category": "Food & Drink",
+    "neighborhoods": [
+      "Germantown"
+    ],
+    "price": "$",
+    "rating": 8.2,
+    "tags": [
+      "food",
+      "east nashville",
+      "germantown"
+    ],
+    "why": "Our favorite coffee in town with multiple locations. And the breakfast is great as well.",
+    "phone": "",
+    "website": "https://order.elegycoffee.com/order/elegycoffeegermantown",
+    "address": "1390 Adams St Suite 13, Nashville, TN 37208",
+    "maps_url": "https://maps.app.goo.gl/ApBMuRTf7g9corHT9",
+    "image": "../images/unknown.jpg",
+    "top_dishes": [
+      "drip",
+      "best cappuccino in town",
+      "deluxe baseline burrito (add sausage)"
+    ],
+    "best_for": [
+      "breakfast",
+      "coffee"
+    ],
+    "dining_type": "casual dining",
+    "dietary_options": [],
+    "nearish": [],
+    "coordinates": {
+      "lat": 0,
+      "lng": 0
+    },
+    "location": {
+      "city": "Nashville",
+      "neighborhood": "Germantown"
+    },
+    "hours": null,
+    "timezone": null
+  },
+  {
+    "id": "flora",
+    "name": "Flora + Fauna Cafe",
+    "category": "Food & Drink",
+    "neighborhoods": [
+      "East Nashville"
+    ],
+    "price": "$$",
+    "rating": 7.8,
+    "tags": [
+      "food",
+      "east nashville"
+    ],
+    "why": "Fresh ingredient cafe. Good, chill vibe. Everything is seasonal but the burger and sandwiches are always good.",
+    "phone": "",
+    "website": "https://www.florafaunanashville.com/",
+    "address": "747 Douglas Ave, Nashville, TN 37207",
+    "maps_url": "https://maps.app.goo.gl/ooanAKEo5R5zh8XY8",
+    "image": "../images/unknown.jpg",
+    "top_dishes": [
+      "burger",
+      "sandwich",
+      "salads"
+    ],
+    "best_for": [
+      "breakfast",
+      "brunch",
+      "lunch"
+    ],
+    "dining_type": "casual dining",
+    "dietary_options": [],
+    "nearish": [],
+    "coordinates": {
+      "lat": 0,
+      "lng": 0
+    },
+    "location": {
+      "city": "Nashville",
+      "neighborhood": "East Nashville"
+    },
+    "hours": null,
+    "timezone": null
+  },
+  {
+    "id": "folk",
+    "name": "Folk",
+    "category": "Food & Drink",
+    "neighborhoods": [
+      "East Nashville"
+    ],
+    "price": "$$$",
+    "rating": 8.9,
+    "tags": [
+      "food",
+      "east nashville"
+    ],
+    "why": "New Italian, great vibe and great food. Definitely get a dessert with the pairing.",
+    "phone": "",
+    "website": "https://www.goodasfolk.com/menu#menu01",
+    "address": "823 Meridian St, Nashville, TN 37207",
+    "maps_url": "https://maps.app.goo.gl/B7zEyJAzmjLgnG969",
+    "image": "../images/unknown.jpg",
+    "top_dishes": [
+      "seasonal pizza",
+      "classic pizza",
+      "focaccia",
+      "heritage coppa",
+      "dessert"
+    ],
+    "best_for": [
+      "dinner (nice)"
+    ],
+    "dining_type": "casual dining",
+    "dietary_options": [],
+    "nearish": [
+      "Redheaded Stranger"
+    ],
+    "coordinates": {
+      "lat": 0,
+      "lng": 0
+    },
+    "location": {
+      "city": "Nashville",
+      "neighborhood": "East Nashville"
+    },
+    "hours": null,
+    "timezone": null
+  },
+  {
+    "id": "iggys",
+    "name": "Iggy's",
+    "category": "Food & Drink",
+    "neighborhoods": [
+      "Wedgewood Houston"
+    ],
+    "price": "$$$",
+    "rating": 9.1,
+    "tags": [
+      "food",
+      "Wedgewood Houston"
+    ],
+    "why": "One of the best house-made pasta places we've tried in Nashville.",
+    "phone": "",
+    "website": "https://www.iggysnashville.com/",
+    "address": "609 Merritt Ave",
+    "maps_url": "https://maps.app.goo.gl/FUSXa4PReRuWKXio7",
+    "image": "../images/iggys.jpg",
+    "top_dishes": [
+      "pasta",
+      "negroni"
+    ],
+    "best_for": [
+      "dinner"
+    ],
+    "dining_type": "casual dining",
+    "dietary_options": [],
+    "nearish": [
+      "deli",
+      "pizza",
+      "bars",
+      "shopping"
+    ],
+    "coordinates": {
+      "lat": 0,
+      "lng": 0
+    },
+    "location": {
+      "city": "Nashville",
+      "neighborhood": "Wedgewood Houston"
+    },
+    "hours": null,
+    "timezone": null
+  },
+  {
+    "id": "joyland",
+    "name": "Joyland",
+    "category": "Food & Drink",
+    "neighborhoods": [
+      "East Nashville"
+    ],
+    "price": "$$",
+    "rating": 7.7,
+    "tags": [
+      "food",
+      "east nashville"
+    ],
+    "why": "Fast food, made to order with quality ingredients.",
+    "phone": "",
+    "website": "https://eatjoyland.com/",
+    "address": "901 Woodland St, Nashville, TN 37206",
+    "maps_url": "https://maps.app.goo.gl/Coc4w3UPzPRjsYkM7",
+    "image": "../images/unknown.jpg",
+    "top_dishes": [
+      "crustburger (super smashed)",
+      "chicago dog",
+      "curly fries"
+    ],
+    "best_for": [
+      "breakfast",
+      "lunch",
+      "dinner (fast)"
+    ],
+    "dining_type": "casual dining",
+    "dietary_options": [],
+    "nearish": [],
+    "coordinates": {
+      "lat": 0,
+      "lng": 0
+    },
+    "location": {
+      "city": "Nashville",
+      "neighborhood": "East Nashville"
+    },
+    "hours": null,
+    "timezone": null
+  },
+  {
+    "id": "kisser",
+    "name": "Kisser",
+    "category": "Food & Drink",
+    "neighborhoods": [
+      "East Nashville"
+    ],
+    "price": "$$$",
+    "rating": 9.3,
+    "tags": [
+      "food",
+      "east nashville"
+    ],
+    "why": "An homage to the Japanese *kissaten* -a neighborhood spot serving some of the best Japanese food we've had.",
+    "phone": "",
+    "website": "https://www.kisserrestaurant.com/",
+    "address": "747 Douglas Ave, Nashville, TN 37207",
+    "maps_url": "https://maps.app.goo.gl/ooanAKEo5R5zh8XY8",
+    "image": "../images/unknown.jpg",
+    "top_dishes": [
+      "inari",
+      "chopped salad",
+      "onigiri (yaki and Japanese curry)",
+      "egg salad sando (I love roe but not needed)",
+      "yellowtail collar",
+      "chicken curry rice",
+      "creamy bacon udon. All the desserts are excellent."
+    ],
+    "best_for": [
+      "breakfast",
+      "brunch",
+      "lunch"
+    ],
+    "dining_type": "casual dining",
+    "dietary_options": [],
+    "nearish": [],
+    "coordinates": {
+      "lat": 0,
+      "lng": 0
+    },
+    "location": {
+      "city": "Nashville",
+      "neighborhood": "East Nashville"
+    },
+    "hours": null,
+    "timezone": null
+  },
+  {
+    "id": "little_hats_market",
+    "name": "Little Hats Market",
+    "category": "Food & Drink",
+    "neighborhoods": [
+      "Germantown"
+    ],
+    "price": "$$",
+    "rating": 8.3,
+    "tags": [
+      "food",
+      "germantown"
+    ],
+    "why": "An Italian market and excellent deli counter with something for everyone.",
+    "phone": "",
+    "website": "https://www.littlehatsmarket.com/",
+    "address": "1120 4th Ave N #101, Nashville, TN 37208",
+    "maps_url": "https://maps.app.goo.gl/x6fqSLB1uXrJTkui9",
+    "image": "../images/unknown.jpg",
+    "top_dishes": [
+      "great pasta and sandwiches: sausage peppers & onions",
+      "chicago style beef (jue on the side)",
+      "Bolognese Rigatoni"
+    ],
+    "best_for": [
+      "breakfast",
+      "lunch & dinner (and great cocktails)"
+    ],
+    "dining_type": "casual dining",
+    "dietary_options": [],
+    "nearish": [
+      "ceremony",
+      "reception",
+      "coffee"
+    ],
+    "coordinates": {
+      "lat": 0,
+      "lng": 0
+    },
+    "location": {
+      "city": "Nashville",
+      "neighborhood": "Germantown"
+    },
+    "hours": null,
+    "timezone": null
+  },
+  {
+    "id": "mitchell",
+    "name": "Mitchell Delicatessen",
+    "category": "Food & Drink",
+    "neighborhoods": [
+      "East Nashville"
+    ],
+    "price": "$",
+    "rating": 8.9,
+    "tags": [
+      "food",
+      "east nashville"
+    ],
+    "why": "Our go-to sandwich shop. Somehow the sandwiches hit something classic and unexpected at the same time. You really can't go wrong.",
+    "phone": "",
+    "website": "http://mitchelldeli.com/",
+    "address": "1306 McGavock Pk, Nashville, TN 37216",
+    "maps_url": "https://maps.app.goo.gl/wDRBfZChQszVCcJ28",
+    "image": "../images/unknown.jpg",
+    "top_dishes": [
+      "banh mi",
+      "smoked bbq beef brisket",
+      "asian flank steak"
+    ],
+    "best_for": [
+      "breakfast",
+      "lunch"
+    ],
+    "dining_type": "casual dining",
+    "dietary_options": [],
+    "nearish": [],
+    "coordinates": {
+      "lat": 0,
+      "lng": 0
+    },
+    "location": {
+      "city": "Nashville",
+      "neighborhood": "East Nashville"
+    },
+    "hours": null,
+    "timezone": null
+  },
+  {
+    "id": "mraarons",
+    "name": "Mr. Aaron's Goods",
+    "category": "Food & Drink",
+    "neighborhoods": [
+      "East Nashville"
+    ],
+    "price": "$$",
+    "rating": 8.8,
+    "tags": [
+      "food",
+      "east nashville"
+    ],
+    "why": "Fantastic bagels and bagel sandwiches.",
+    "phone": "",
+    "website": "https://mraaronsgoods.com/",
+    "address": "4204 Gallatin Pike, Nashville, TN 37216",
+    "maps_url": "https://maps.app.goo.gl/ZWkGto8vPJAXCTr9A",
+    "image": "../images/unknown.jpg",
+    "top_dishes": [
+      "pork roll egg & cheese (or whatever sounds good) on an onion bagel"
+    ],
+    "best_for": [
+      "breakfast",
+      "lunch"
+    ],
+    "dining_type": "casual dining",
+    "dietary_options": [],
+    "nearish": [],
+    "coordinates": {
+      "lat": 0,
+      "lng": 0
+    },
+    "location": {
+      "city": "Nashville",
+      "neighborhood": "East Nashville"
+    },
+    "hours": null,
+    "timezone": null
+  },
+  {
+    "id": "peg_leg",
+    "name": "Peg Leg Porker",
+    "category": "Food & Drink",
+    "neighborhoods": [
+      "Pie Town"
+    ],
+    "price": "$$",
+    "rating": 8.7,
+    "tags": [
+      "food",
+      "Pie Town"
+    ],
+    "why": "Just excellent pulled pork BBQ",
+    "phone": "",
+    "website": "http://www.peglegporker.com/",
+    "address": "903 Gleaves St, Nashville, TN 37203",
+    "maps_url": "https://maps.app.goo.gl/AxU7WL9gDkraP9Cs6",
+    "image": "../images/peg_leg.jpg",
+    "top_dishes": [
+      "pasta",
+      "negroni"
+    ],
+    "best_for": [
+      "lunch",
+      "dinner"
+    ],
+    "dining_type": "casual dining",
+    "dietary_options": [],
+    "nearish": [
+      "the gulch",
+      "downtown"
+    ],
+    "coordinates": {
+      "lat": 0,
+      "lng": 0
+    },
+    "location": {
+      "city": "Nashville",
+      "neighborhood": "Pie Town"
+    },
+    "hours": null,
+    "timezone": null
+  },
+  {
+    "id": "peninsula",
+    "name": "Peninsula",
+    "category": "Food & Drink",
+    "neighborhoods": [
+      "East Nashville"
+    ],
+    "price": "$$$",
+    "rating": 9.3,
+    "tags": [
+      "food",
+      "east nashville"
+    ],
+    "why": "One of our favorite restaurants anywhere. Imagine the kind of food you get on an excellent tasting menu but… it's à la carte…",
+    "phone": "",
+    "website": "http://peninsulanashville.com/",
+    "address": "1035 W Eastland Ave, Nashville, TN 37206",
+    "maps_url": "https://maps.app.goo.gl/XkJw752mVPwkUibr8",
+    "image": "../images/unknown.jpg",
+    "top_dishes": [
+      "cucumber/melon",
+      "endive",
+      "beet",
+      "chewy rice",
+      "mussels",
+      "and for dessert the marzipan with pairing."
+    ],
+    "best_for": [
+      "dinner (nice)"
+    ],
+    "dining_type": "casual dining",
+    "dietary_options": [],
+    "nearish": [
+      "Redheaded Stranger"
+    ],
+    "coordinates": {
+      "lat": 0,
+      "lng": 0
+    },
+    "location": {
+      "city": "Nashville",
+      "neighborhood": "East Nashville"
+    },
+    "hours": null,
+    "timezone": null
+  },
+  {
+    "id": "Redheaded Stranger",
+    "name": "Redheaded Stranger",
+    "category": "Food & Drink",
+    "neighborhoods": [
+      "East Nashville"
+    ],
+    "price": "$$",
+    "rating": 8.9,
+    "tags": [
+      "food",
+      "east nashville"
+    ],
+    "why": "A great Southwestern inspiried taco shop with homemade flour tortillas.",
+    "phone": "",
+    "website": "",
+    "address": "305 Arrington St, Nashville, TN 37207",
+    "maps_url": "https://maps.app.goo.gl/HGZXwo7a8n7L8up59",
+    "image": "../images/unknown.jpg",
+    "top_dishes": [
+      "RHS Burrito (we go regular but veggie option available)",
+      "Burger (hatch chilles",
+      "come on!) and the #1",
+      "#5 and #7 tacos but you can't really go wrong. Biscuit sandwich (if it's a special that day)"
+    ],
+    "best_for": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "dining_type": "casual dining",
+    "dietary_options": [],
+    "nearish": [],
+    "coordinates": {
+      "lat": 0,
+      "lng": 0
+    },
+    "location": {
+      "city": "Nashville",
+      "neighborhood": "East Nashville"
+    },
+    "hours": null,
+    "timezone": null
+  },
+  {
+    "id": "schulmans",
+    "name": "Schulman's",
+    "category": "Food & Drink",
+    "neighborhoods": [
+      "East Nashville"
+    ],
+    "price": "$",
+    "rating": 8.8,
+    "tags": [
+      "food",
+      "east nashville"
+    ],
+    "why": "Just an excellent neighborhood bar. Not quite divey. Classic, like stepping back in time. Great vibes and the burger is one of the best in town.",
+    "phone": "",
+    "website": "https://www.schulmansbar.com/",
+    "address": "1201 Porter Rd, Nashville, TN 37206",
+    "maps_url": "https://maps.app.goo.gl/QHktTcT6CajSqw3U6",
+    "image": "../images/unknown.jpg",
+    "top_dishes": [
+      "The burger and fries (and a beer)"
+    ],
+    "best_for": [
+      "lunch",
+      "dinner (casual)"
+    ],
+    "dining_type": "casual dining",
+    "dietary_options": [],
+    "nearish": [
+      "Cafe Roze",
+      "restaurants",
+      "vinyl store",
+      "etc."
+    ],
+    "coordinates": {
+      "lat": 0,
+      "lng": 0
+    },
+    "location": {
+      "city": "Nashville",
+      "neighborhood": "East Nashville"
+    },
+    "hours": null,
+    "timezone": null
+  },
+  {
+    "id": "ss_gai",
+    "name": "SS Gai",
+    "category": "Food & Drink",
+    "neighborhoods": [
+      "East Nashville"
+    ],
+    "price": "$$",
+    "rating": 8.7,
+    "tags": [
+      "food",
+      "east nashville"
+    ],
+    "why": "The best grilled or fried chicken in our neighborhood. They know Thai flavors and don't disappoint.",
+    "phone": "",
+    "website": "https://www.ssgainash.com/",
+    "address": "1101 McKennie Ave Bay 3, Nashville, TN 37206",
+    "maps_url": "https://maps.app.goo.gl/GQyzsSs7vQqNmfpW8",
+    "image": "../images/unknown.jpg",
+    "top_dishes": [
+      "Thai seasoned grilled and fried chicken",
+      "the fried chicken sando (for lunch)",
+      "mango fried sticky rice."
+    ],
+    "best_for": [
+      "lunch",
+      "dinner (casual)"
+    ],
+    "dining_type": "casual dining",
+    "dietary_options": [],
+    "nearish": [
+      "coffee",
+      "restaurants",
+      "vintage stores",
+      "etc."
+    ],
+    "coordinates": {
+      "lat": 0,
+      "lng": 0
+    },
+    "location": {
+      "city": "Nashville",
+      "neighborhood": "East Nashville"
+    },
+    "hours": null,
+    "timezone": null
+  },
+  {
+    "id": "smiling-elephant",
+    "name": "The Smiling Elephant",
+    "category": "Food & Drink",
+    "neighborhoods": [
+      "Historic Waverly"
+    ],
+    "price": "$$",
+    "rating": 8.4,
+    "tags": [
+      "food",
+      "historic waverly"
+    ],
+    "why": "Food truck as food trucks should be. Permanently located near a fun bar.",
+    "phone": "",
+    "website": "http://www.thesmilingelephant.com/",
+    "address": "2213 8th Ave S, Nashville, TN 37204",
+    "maps_url": "https://maps.app.goo.gl/VKbeT9XopmkNxUu26",
+    "image": "../images/smiling-elephant.jpg",
+    "top_dishes": [
+      "bao",
+      "pad see-ew",
+      "pad kra poa"
+    ],
+    "best_for": [
+      "lunch",
+      "dinner"
+    ],
+    "dining_type": "casual dining",
+    "dietary_options": [],
+    "nearish": [
+      "shopping",
+      "vintage",
+      "bars",
+      "tailor"
+    ],
+    "coordinates": {
+      "lat": 0,
+      "lng": 0
+    },
+    "location": {
+      "city": "Nashville",
+      "neighborhood": "Historic Waverly"
     },
     "hours": null,
     "timezone": null
