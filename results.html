@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-  
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>LocalsOnly — Results</title>
@@ -59,10 +58,22 @@
             <option value="open">Open</option>
           </select>
         </label>
+
+        <label>
+          For
+          <select id="bestForSelect">
+            <option value="any" selected>Any</option>
+          </select>
+        </label>
       </div>
 
       <div class="filter-row filter-row-2">
-        <input id="searchBox" class="search" type="text" placeholder="Search by name or tag (e.g., cozy, patio)" />
+        <input
+          id="searchBox"
+          class="search"
+          type="text"
+          placeholder="Search by name, tag, favorite dish, or best-for"
+        />
         <button class="btn" id="resetBtn" type="button">Reset</button>
       </div>
     </section>
@@ -75,10 +86,6 @@
         <button class="btn" id="showMoreBtn" type="button">Show more</button>
       </div>
     </section>
-
-    <footer class="footer">
-      <div class="muted small">Edit <code>data.js</code> to change what shows up here.</div>
-    </footer>
   </main>
 
   <script src="./data.js"></script>

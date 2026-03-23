@@ -5,28 +5,50 @@ location:
   city: Nashville
   neighborhood: East Nashville
 coordinates:
-  lat: 0.0
-  lng: 0.0
-address: 4204 Gallatin Pike, Nashville, TN 37216
-maps_url: https://maps.app.goo.gl/ZWkGto8vPJAXCTr9A
+  lat: 36.224451099999996
+  lng: -86.7253135
+address: '4204 Gallatin Pike, Nashville, TN 37216'
+maps_url: 'https://maps.app.goo.gl/ZWkGto8vPJAXCTr9A'
 phone: ''
-website: https://mraaronsgoods.com/
+website: 'https://mraaronsgoods.com/'
 price_range: $$
 dining_type: casual dining
 dietary_options: []
 top_dishes:
-- pork roll egg & cheese (or whatever sounds good) on an onion bagel
+  - pork roll egg & cheese (or whatever sounds good) on an onion bagel
 best_for:
-- breakfast
-- lunch
+  - breakfast
+  - lunch
 tags:
-- food
-- east nashville
+  - food
+  - east nashville
 nearish: []
 recommendation: Fantastic bagels and bagel sandwiches.
 image: ../images/unknown.jpg
 permalink: ''
 rating_proxy: 8.8
+hours:
+  sunday:
+    - open: '8:00 AM'
+      close: '1:00 PM'
+  monday: []
+  tuesday:
+    - open: '7:30 AM'
+      close: '1:00 PM'
+  wednesday:
+    - open: '7:30 AM'
+      close: '1:00 PM'
+  thursday:
+    - open: '7:30 AM'
+      close: '1:00 PM'
+  friday:
+    - open: '7:30 AM'
+      close: '1:00 PM'
+  saturday:
+    - open: '8:00 AM'
+      close: '1:00 PM'
+timezone: America/Chicago
+google_place_id: ChIJtdxx1l5DZIgRRYwqo_Owymk
 ---
 
 # Mr. Aaron's Goods

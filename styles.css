@@ -362,3 +362,59 @@ label {
   border-top: 1px solid var(--border);
   margin-top: 18px;
 }
+
+
+/*
+.autocomplete-shell {
+  position: relative;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.autocomplete-shell input {
+  width: 100%;
+}
+
+.autocomplete-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  z-index: 50;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  max-height: 280px;
+  overflow-y: auto;
+}
+
+.autocomplete-item {
+  width: 100%;
+  border: 0;
+  background: #fff;
+  padding: 10px 12px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  cursor: pointer;
+  font: inherit;
+}
+
+.autocomplete-item:hover,
+.autocomplete-item.is-active {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.autocomplete-count {
+  opacity: 0.6;
+  font-size: 0.9em;
+}
+
+.card-favorites strong {
+  font-weight: 700;
+} 
+*/

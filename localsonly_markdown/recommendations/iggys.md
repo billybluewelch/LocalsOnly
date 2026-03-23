@@ -5,32 +5,54 @@ location:
   city: Nashville
   neighborhood: Wedgewood Houston
 coordinates:
-  lat: 0.0
-  lng: 0.0
+  lat: 36.1397298
+  lng: -86.77049330000001
 address: 609 Merritt Ave
-maps_url: https://maps.app.goo.gl/FUSXa4PReRuWKXio7
+maps_url: 'https://maps.app.goo.gl/FUSXa4PReRuWKXio7'
 phone: ''
-website: https://www.iggysnashville.com/
+website: 'https://www.iggysnashville.com/'
 price_range: $$$
 dining_type: casual dining
 dietary_options: []
 top_dishes:
-- pasta
-- negroni
+  - pasta
+  - negroni
 best_for:
-- dinner
+  - dinner
 tags:
-- food
-- Wedgewood Houston
+  - food
+  - wedgewood houston
 nearish:
-- deli
-- pizza
-- bars
-- shopping
+  - deli
+  - pizza
+  - bars
+  - shopping
 recommendation: One of the best house-made pasta places we've tried in Nashville.
 image: ../images/iggys.jpg
 permalink: iggys
 rating_proxy: 9.1
+hours:
+  sunday:
+    - open: '5:00 PM'
+      close: '9:00 PM'
+  monday: []
+  tuesday:
+    - open: '5:00 PM'
+      close: '9:00 PM'
+  wednesday:
+    - open: '5:00 PM'
+      close: '9:00 PM'
+  thursday:
+    - open: '5:00 PM'
+      close: '9:00 PM'
+  friday:
+    - open: '5:00 PM'
+      close: '9:30 PM'
+  saturday:
+    - open: '5:00 PM'
+      close: '9:30 PM'
+timezone: America/Chicago
+google_place_id: ChIJ36D3YW9nZIgRhyKtndUp6E0
 ---
 
 # Iggy's

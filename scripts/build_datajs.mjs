@@ -18,8 +18,23 @@ function asString(v) {
   return (v == null ? "" : String(v)).trim();
 }
 
-function asArray(v) {
-  return Array.isArray(v) ? v : [];
+function asStringArray(v) {
+  const arr = Array.isArray(v) ? v : v == null ? [] : [v];
+  const out = [];
+  const seen = new Set();
+
+  for (const item of arr) {
+    const s = asString(item);
+    if (!s) continue;
+
+    const key = s.toLowerCase();
+    if (seen.has(key)) continue;
+
+    seen.add(key);
+    out.push(s);
+  }
+
+  return out;
 }
 
 function asNumber(v, file, keyPath) {
@@ -50,8 +65,12 @@ function normalize(front, file) {
     (typeof front.permalink === "string" && front.permalink.trim()) ||
     path.basename(file, path.extname(file));
 
-  // Optional fields (pass-through only; no invention)
-  const tags = asArray(front.tags);
+  // Optional fields (light normalization only; no invention)
+  const tags = asStringArray(front.tags);
+  const top_dishes = asStringArray(front.top_dishes);
+  const best_for = asStringArray(front.best_for);
+  const dietary_options = asStringArray(front.dietary_options);
+  const nearish = asStringArray(front.nearish);
   const why = asString(front.recommendation);
 
   return {
@@ -73,11 +92,11 @@ function normalize(front, file) {
     address: asString(front.address),
     maps_url: asString(front.maps_url),
     image: asString(front.image),
-    top_dishes: asArray(front.top_dishes),
-    best_for: asArray(front.best_for),
+    top_dishes,
+    best_for,
     dining_type: asString(front.dining_type),
-    dietary_options: asArray(front.dietary_options),
-    nearish: asArray(front.nearish),
+    dietary_options,
+    nearish,
     coordinates: { lat, lng },
     location: { city: asString(location.city) || "Nashville", neighborhood },
 

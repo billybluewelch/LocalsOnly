@@ -5,35 +5,56 @@ location:
   city: Nashville
   neighborhood: East Nashville
 coordinates:
-  lat: 0.0
-  lng: 0.0
-address: 1101 McKennie Ave Bay 3, Nashville, TN 37206
-maps_url: https://maps.app.goo.gl/GQyzsSs7vQqNmfpW8
+  lat: 36.1921447
+  lng: -86.74440969999999
+address: '1101 McKennie Ave Bay 3, Nashville, TN 37206'
+maps_url: 'https://maps.app.goo.gl/GQyzsSs7vQqNmfpW8'
 phone: ''
-website: https://www.ssgainash.com/
+website: 'https://www.ssgainash.com/'
 price_range: $$
 dining_type: casual dining
 dietary_options: []
 top_dishes:
-- Thai seasoned grilled and fried chicken
-- the fried chicken sando (for lunch)
-- mango fried sticky rice.
+  - Thai seasoned grilled and fried chicken
+  - the fried chicken sando (for lunch)
+  - mango fried sticky rice.
 best_for:
-- lunch
-- dinner (casual)
+  - lunch
+  - dinner
 tags:
-- food
-- east nashville
+  - food
+  - east nashville
 nearish:
-- coffee
-- restaurants
-- vintage stores
-- etc.
-recommendation: The best grilled or fried chicken in our neighborhood. They know Thai
-  flavors and don't disappoint.
+  - coffee
+  - restaurants
+  - vintage stores
+  - etc.
+recommendation: >-
+  The best grilled or fried chicken in our neighborhood. They know Thai flavors
+  and don't disappoint.
 image: ../images/unknown.jpg
 permalink: ''
 rating_proxy: 8.7
+hours:
+  sunday:
+    - open: '11:00 AM'
+      close: '9:00 PM'
+  monday:
+    - open: '11:00 AM'
+      close: '9:00 PM'
+  tuesday: []
+  wednesday: []
+  thursday:
+    - open: '11:00 AM'
+      close: '9:00 PM'
+  friday:
+    - open: '11:00 AM'
+      close: '9:00 PM'
+  saturday:
+    - open: '11:00 AM'
+      close: '9:00 PM'
+timezone: America/Chicago
+google_place_id: ChIJPY1xcBJnZIgRnLM1XF8i8TI
 ---
 
 # SS Gai

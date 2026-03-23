@@ -1,0 +1,1810 @@
+---
+name: All Day Cafe
+cuisine: Food & Drink
+location:
+  city: Nashville
+  neighborhood: Germantown
+coordinates:
+  lat: 36.1759363
+  lng: -86.757756
+address: '811 Main St, Nashville, TN 37206'
+maps_url: 'https://maps.app.goo.gl/VkRfRXHuMYfSxf9S9'
+phone: ''
+website: 'https://www.waymoresnashville.com/restaurants-east-nashville'
+price_range: $$
+dining_type: casual dining
+dietary_options: []
+top_dishes:
+  - breakfast burrito
+  - greek salad
+best_for:
+  - breakfast
+  - lunch
+tags:
+  - food
+  - east nashville
+nearish:
+  - coffee
+  - 5 points
+  - not too far from ceremony
+recommendation: >-
+  Just good, all-around food and vibe. Loved the breakfast burrito. Nothing
+  crazy, just good ingredients that leave you satisfied.
+image: ../images/all-day.jpg
+permalink: all-day
+rating_proxy: 7.8
+hours:
+  sunday:
+    - open: '7:00 AM'
+      close: '2:00 PM'
+    - open: '3:00 PM'
+      close: '9:00 PM'
+  monday:
+    - open: '7:00 AM'
+      close: '2:00 PM'
+    - open: '3:00 PM'
+      close: '9:00 PM'
+  tuesday:
+    - open: '7:00 AM'
+      close: '2:00 PM'
+    - open: '3:00 PM'
+      close: '9:00 PM'
+  wednesday:
+    - open: '7:00 AM'
+      close: '2:00 PM'
+    - open: '3:00 PM'
+      close: '9:00 PM'
+  thursday:
+    - open: '7:00 AM'
+      close: '2:00 PM'
+    - open: '3:00 PM'
+      close: '9:00 PM'
+  friday:
+    - open: '7:00 AM'
+      close: '2:00 PM'
+    - open: '3:00 PM'
+      close: '9:00 PM'
+  saturday:
+    - open: '7:00 AM'
+      close: '2:00 PM'
+    - open: '3:00 PM'
+      close: '9:00 PM'
+timezone: America/Chicago
+google_place_id: ChIJYwlL-ztnZIgRp7wFNOpzYdg
+---
+
+# All Day Café
+
+![All Day Café](../images/all-day.jpg)
+
+**Neighborhood:** Germantown
+**Price:** $
+**Vibe tags:** food, east nashville
+
+## Why it's worth it
+Just good, all-around food and vibe. Loved the breakfast burrito. Nothing crazy, just good ingredients that leave you satisfied.
+
+## Top picks
+- breakfast burrito
+- greek salad
+
+## Good for
+breakfast, lunch
+
+## Quick details
+- Address: 811 Main St, Nashville, TN 37206
+- Map: https://maps.app.goo.gl/VkRfRXHuMYfSxf9S9
+- Website: https://www.waymoresnashville.com/restaurants-east-nashville
+---
+name: Bastion
+cuisine: Food & Drink
+location:
+  city: Nashville
+  neighborhood: Wedgewood Houston
+coordinates:
+  lat: 36.142924199999996
+  lng: -86.7665652
+address: '434 Houston St STE 110, Nashville, TN 37203'
+maps_url: 'https://maps.app.goo.gl/RTRUvWG35qR1FSVR7'
+phone: ''
+website: 'http://www.bastionnashville.com/'
+price_range: $$$$
+dining_type: casual dining
+dietary_options: []
+top_dishes:
+  - tasting menu
+  - get the pairing but split it with someone or three people
+best_for:
+  - dinner (very nice)
+tags:
+  - food
+  - wedgewood houston
+nearish:
+  - Dicey's Tavern
+  - shopping
+recommendation: >-
+  One of the best restaurants, period. If you're into the tasting menu/pairing
+  thing, you must try this place. Intimate and vibey, the staff, chefs and somm
+  are incredible.
+image: ../images/unknown.jpg
+permalink: ''
+rating_proxy: 9.6
+hours:
+  sunday:
+    - open: '5:00 PM'
+      close: '12:00 AM'
+  monday:
+    - open: '5:00 PM'
+      close: '12:00 AM'
+  tuesday:
+    - open: '5:00 PM'
+      close: '12:00 AM'
+  wednesday:
+    - open: '5:00 PM'
+      close: '12:00 AM'
+  thursday:
+    - open: '5:00 PM'
+      close: '12:00 AM'
+  friday:
+    - open: '5:00 PM'
+      close: '1:00 AM'
+  saturday:
+    - open: '5:00 PM'
+      close: '1:00 AM'
+timezone: America/Chicago
+google_place_id: ChIJIS56-XFmZIgRsvTzijiFReo
+---
+
+# Bastion
+
+![Bastion](../images/unknown.jpg)
+
+**Neighborhood:** Wedgewood Houston
+**Price:** $
+**Vibe tags:** food, wedgewood houston
+
+## Why it's worth it
+One of the best restaurants, period. If you're into the tasting menu/pairing thing, you must try this place. Intimate and vibey, the staff, chefs and somm are incredible.
+
+## Top picks
+- tasting menu
+- get the pairing but split it with someone or three people
+
+## Good for
+dinner (very nice)
+
+## Quick details
+- Address: 434 Houston St STE 110, Nashville, TN 37203
+- Map: https://maps.app.goo.gl/RTRUvWG35qR1FSVR7
+- Website: http://www.bastionnashville.com/
+---
+name: Brave Idiot
+cuisine: Food & Drink
+location:
+  city: Nashville
+  neighborhood: East Nashville
+coordinates:
+  lat: 36.1764041
+  lng: -86.75524899999999
+address: 'Parked behind No Quarter, 922 Main St, Nashville, TN 37206'
+maps_url: 'https://maps.app.goo.gl/oLpUkgEBLsbre7GT9'
+phone: ''
+website: 'http://braveidiot.com/'
+price_range: $$
+dining_type: casual dining
+dietary_options: []
+top_dishes:
+  - nashville hot chicken
+  - chicken sandwich
+best_for:
+  - lunch
+  - dinner
+tags:
+  - food
+  - east nashville
+nearish:
+  - coffee
+  - all-day cafe
+  - cocktails
+  - bars
+recommendation: Food truck as food trucks should be. Permanently located near a fun bar.
+image: ../images/brave-idiot.jpg
+permalink: brave-idiot
+rating_proxy: 7.2
+hours:
+  sunday:
+    - open: '11:00 AM'
+      close: '3:00 PM'
+  monday: []
+  tuesday: []
+  wednesday: []
+  thursday: []
+  friday:
+    - open: '12:00 PM'
+      close: '8:00 PM'
+  saturday:
+    - open: '12:00 PM'
+      close: '8:00 PM'
+timezone: America/Chicago
+google_place_id: ChIJ5Shlf8JnZIgROcqohmMt8Ts
+---
+
+# Brave Idiot
+
+![Brave Idiot](../images/brave-idiot.jpg)
+
+**Neighborhood:** East Nashville
+**Price:** $
+**Vibe tags:** food, east nashville
+
+## Why it's worth it
+Food truck as food trucks should be. Permanently located near a fun bar.
+
+## Top picks
+- nashville hot chicken
+- chicken sandwich
+
+## Good for
+lunch, dinner
+
+## Quick details
+- Address: Parked behind No Quarter, 922 Main St, Nashville, TN 37206
+- Map: https://maps.app.goo.gl/oLpUkgEBLsbre7GT9
+- Website: http://braveidiot.com/
+---
+name: Cafe Roze
+cuisine: Food & Drink
+location:
+  city: Nashville
+  neighborhood: East Nashville
+coordinates:
+  lat: 36.1885958
+  lng: -86.7291202
+address: '1115 Porter Rd, Nashville, TN 37206'
+maps_url: 'https://maps.app.goo.gl/8ujYR16ccpfKbU669'
+phone: ''
+website: 'https://www.caferoze.com/'
+price_range: $$$
+dining_type: casual dining
+dietary_options: []
+top_dishes:
+  - country ham toast
+  - simple breakfast
+  - broccoli melt (add grilled chicken)
+  - oysters
+  - pistola or martinez (cocktails)
+  - preserved lemon labna
+  - gnocchi
+  - smoked trout dip
+  - swordfish
+  - the duck is just excellent
+  - paprika chicken.
+best_for:
+  - breakfast
+  - lunch & dinner (and great cocktails)
+tags:
+  - food
+  - east nashville
+nearish: []
+recommendation: >-
+  Our go-to neighborhood restaurant. They're open 7 days a week for breakfast,
+  lunch and dinner. I'd say grab a reservation if you plan to visit.
+image: ../images/unknown.jpg
+permalink: ''
+rating_proxy: 9.2
+hours:
+  sunday:
+    - open: '8:00 AM'
+      close: '10:00 PM'
+  monday:
+    - open: '8:00 AM'
+      close: '10:00 PM'
+  tuesday:
+    - open: '8:00 AM'
+      close: '10:00 PM'
+  wednesday:
+    - open: '8:00 AM'
+      close: '10:00 PM'
+  thursday:
+    - open: '8:00 AM'
+      close: '10:00 PM'
+  friday:
+    - open: '8:00 AM'
+      close: '10:00 PM'
+  saturday:
+    - open: '8:00 AM'
+      close: '10:00 PM'
+timezone: America/Chicago
+google_place_id: ChIJT-JXAG9oZIgReXQDEafdpIE
+---
+
+# Cafe Roze
+
+![Cafe Roze](../images/unknown.jpg)
+
+**Neighborhood:** East Nashville
+**Price:** $
+**Vibe tags:** food, east nashville
+
+## Why it's worth it
+Our go-to neighborhood restaurant. They're open 7 days a week for breakfast, lunch and dinner. I'd say grab a reservation if you plan to visit.
+
+## Top picks
+- country ham toast
+- simple breakfast
+- broccoli melt (add grilled chicken)
+- oysters
+- pistola or martinez (cocktails)
+- preserved lemon labna
+- gnocchi
+- smoked trout dip
+- swordfish
+- the duck is just excellent
+- paprika chicken.
+
+## Good for
+breakfast, lunch & dinner (and great cocktails)
+
+## Quick details
+- Address: 1115 Porter Rd, Nashville, TN 37206
+- Map: https://maps.app.goo.gl/8ujYR16ccpfKbU669
+- Website: https://www.caferoze.com/
+---
+name: Dicey's Tavern
+cuisine: Food & Drink
+location:
+  city: Nashville
+  neighborhood: Wedgewood Houston
+coordinates:
+  lat: 36.144067799999995
+  lng: -86.7680388
+address: '425 Chestnut St, Nashville, TN 37203'
+maps_url: 'https://maps.app.goo.gl/5UMoS2DufEsA2HnPA'
+phone: ''
+website: 'https://www.diceystavern.com/'
+price_range: $$
+dining_type: casual dining
+dietary_options: []
+top_dishes:
+  - classic or specialty pizza (sausage recommended on everything)
+  - peppy boy
+  - salad.
+best_for:
+  - lunch
+  - dinner (great vibe/casual)
+tags:
+  - food
+  - wedgewood houston
+nearish:
+  - Bastion
+  - shopping
+recommendation: >-
+  Chicago style tavern pizza. Thin, thin crust. Great topptings. Gluten-free
+  available. Great salads. You can't go wrong. Great wine/beer selection as
+  well.
+image: ../images/unknown.jpg
+permalink: ''
+rating_proxy: 8.6
+hours:
+  sunday:
+    - open: '11:00 AM'
+      close: '10:00 PM'
+  monday:
+    - open: '11:00 AM'
+      close: '10:00 PM'
+  tuesday:
+    - open: '11:00 AM'
+      close: '10:00 PM'
+  wednesday:
+    - open: '11:00 AM'
+      close: '10:00 PM'
+  thursday:
+    - open: '11:00 AM'
+      close: '10:00 PM'
+  friday:
+    - open: '11:00 AM'
+      close: '12:00 AM'
+  saturday:
+    - open: '11:00 AM'
+      close: '12:00 AM'
+timezone: America/Chicago
+google_place_id: ChIJ6aD--z9nZIgRIqFeRppZP9U
+---
+
+# Dicey's Tavern
+
+![Dicey's Tavern](../images/unknown.jpg)
+
+**Neighborhood:** Wedgewood Houston
+**Price:** $
+**Vibe tags:** food, wedgewood houston
+
+## Why it's worth it
+Chicago style tavern pizza. Thin, thin crust. Great topptings. Gluten-free available. Great salads. You can't go wrong. Great wine/beer selection as well.
+
+## Top picks
+- classic or specialty pizza (sausage recommended on everything)
+- peppy boy
+- salad.
+
+## Good for
+lunch, dinner (great vibe/casual)
+
+## Quick details
+- Address: 425 Chestnut St, Nashville, TN 37203
+- Map: https://maps.app.goo.gl/5UMoS2DufEsA2HnPA
+- Website: https://www.diceystavern.com/
+---
+name: Dino's
+cuisine: Bar & Burgers
+location:
+  city: Nashville
+  neighborhood: East Nashville
+coordinates:
+  lat: 36.181345575821474
+  lng: -86.74926171349242
+address: '411 Gallatin Ave, Nashville, TN 37206'
+maps_url: 'https://maps.app.goo.gl/VkRfRXHuMYfSxf9S9'
+phone: ''
+website: 'https://dinosnashville.com/'
+price_range: $$
+dining_type: ''
+dietary_options: []
+top_dishes:
+  - burgers
+  - fries
+  - beers and vibe
+best_for: []
+tags:
+  - food
+  - beer
+  - drinks
+  - burgers
+nearish:
+  - Waymore's
+  - Peninsula
+  - Mas Tacos
+recommendation: >-
+  A classic dive bar in East Nashville with ice cold beers and excellent
+  burgers. It’s perfect for a chill hang in the backyard.
+image: ''
+rating_proxy: 4.7
+hours:
+  sunday:
+    - open: '12:00 PM'
+      close: '3:00 AM'
+  monday:
+    - open: '5:00 PM'
+      close: '3:00 AM'
+  tuesday:
+    - open: '5:00 PM'
+      close: '3:00 AM'
+  wednesday:
+    - open: '5:00 PM'
+      close: '3:00 AM'
+  thursday:
+    - open: '5:00 PM'
+      close: '3:00 AM'
+  friday:
+    - open: '5:00 PM'
+      close: '3:00 AM'
+  saturday:
+    - open: '12:00 PM'
+      close: '3:00 AM'
+timezone: America/Chicago
+google_place_id: ChIJLftkgNFnZIgRXw2DPxN7rQU
+---
+# [Dino’s](https://dinosnashville.com/)
+![](../_dinos.jpg)
+
+A classic dive bar in East Nashville with ice cold beers and excellent burgers. It’s perfect for a chill hang in the backyard.
+---
+name: Dose
+cuisine: Food & Drink
+location:
+  city: Nashville
+  neighborhood: East Nashville
+coordinates:
+  lat: 36.204641
+  lng: -86.724007
+address: '1400 McGavock Pk, Nashville, TN 37216'
+maps_url: 'https://maps.app.goo.gl/LNfiqGEx6Zm9v2r76'
+phone: ''
+website: 'https://dosenashville.com/pages/riverside'
+price_range: $$
+dining_type: casual dining
+dietary_options: []
+top_dishes:
+  - rosemary buscuit sandwich (add provolone and a side of green chili sauce)
+best_for:
+  - breakfast
+  - coffee
+tags:
+  - food
+  - east nashville
+nearish: []
+recommendation: Really nice cafe with great breakfast and good coffee. Laptop friendly.
+image: ../images/unknown.jpg
+permalink: ''
+rating_proxy: 7.9
+hours:
+  sunday:
+    - open: '7:00 AM'
+      close: '5:00 PM'
+  monday:
+    - open: '7:00 AM'
+      close: '5:00 PM'
+  tuesday:
+    - open: '7:00 AM'
+      close: '5:00 PM'
+  wednesday:
+    - open: '7:00 AM'
+      close: '5:00 PM'
+  thursday:
+    - open: '7:00 AM'
+      close: '5:00 PM'
+  friday:
+    - open: '7:00 AM'
+      close: '5:00 PM'
+  saturday:
+    - open: '7:00 AM'
+      close: '5:00 PM'
+timezone: America/Chicago
+google_place_id: ChIJbbn4VRZoZIgRFJ7mfjEeA0k
+---
+
+# Dose
+
+![Dose](../images/unknown.jpg)
+
+**Neighborhood:** East Nashville
+**Price:** $
+**Vibe tags:** food, east nashville
+
+## Why it's worth it
+Really nice cafe with great breakfast and good coffee. Laptop friendly.
+
+## Top picks
+- rosemary buscuit sandwich (add provolone and a side of green chili sauce)
+
+## Good for
+breakfast, coffee
+
+## Quick details
+- Address: 1400 McGavock Pk, Nashville, TN 37216
+- Map: https://maps.app.goo.gl/LNfiqGEx6Zm9v2r76
+- Website: https://dosenashville.com/pages/riverside
+---
+name: Elegy Coffee
+cuisine: Food & Drink
+location:
+  city: Nashville
+  neighborhood: Germantown
+coordinates:
+  lat: 36.1810551
+  lng: -86.78394620000002
+address: '1390 Adams St Suite 13, Nashville, TN 37208'
+maps_url: 'https://maps.app.goo.gl/ApBMuRTf7g9corHT9'
+phone: ''
+website: 'https://order.elegycoffee.com/order/elegycoffeegermantown'
+price_range: $
+dining_type: casual dining
+dietary_options: []
+top_dishes:
+  - drip
+  - best cappuccino in town
+  - deluxe baseline burrito (add sausage)
+best_for:
+  - breakfast
+  - coffee
+tags:
+  - food
+  - east nashville
+  - germantown
+nearish: []
+recommendation: >-
+  Our favorite coffee in town with multiple locations. And the breakfast is
+  great as well.
+image: ../images/unknown.jpg
+permalink: ''
+rating_proxy: 8.2
+hours:
+  sunday:
+    - open: '7:00 AM'
+      close: '4:00 PM'
+  monday:
+    - open: '7:00 AM'
+      close: '4:00 PM'
+  tuesday:
+    - open: '7:00 AM'
+      close: '4:00 PM'
+  wednesday:
+    - open: '7:00 AM'
+      close: '4:00 PM'
+  thursday:
+    - open: '7:00 AM'
+      close: '4:00 PM'
+  friday:
+    - open: '7:00 AM'
+      close: '4:00 PM'
+  saturday:
+    - open: '7:00 AM'
+      close: '4:00 PM'
+timezone: America/Chicago
+google_place_id: ChIJrfgGh1xnZIgRWOkV6p6Oamc
+---
+
+# Elegy Coffee
+
+![Elegy Coffee](../images/unknown.jpg)
+
+**Neighborhood:** Germantown
+**Price:** $
+**Vibe tags:** food, east nashville, germantown
+
+## Why it's worth it
+Our favorite coffee in town with multiple locations. And the breakfast is great as well.
+
+## Top picks
+- drip
+- best cappuccino in town
+- deluxe baseline burrito (add sausage)
+
+## Good for
+breakfast, coffee
+
+## Quick details
+- Address: 1390 Adams St Suite 13, Nashville, TN 37208
+- Map: https://maps.app.goo.gl/ApBMuRTf7g9corHT9
+- Website: https://order.elegycoffee.com/order/elegycoffeegermantown
+---
+name: Flora + Fauna Cafe
+cuisine: Food & Drink
+location:
+  city: Nashville
+  neighborhood: East Nashville
+coordinates:
+  lat: 36.1939299
+  lng: -86.7537868
+address: '747 Douglas Ave, Nashville, TN 37207'
+maps_url: 'https://maps.app.goo.gl/ooanAKEo5R5zh8XY8'
+phone: ''
+website: 'https://www.florafaunanashville.com/'
+price_range: $$
+dining_type: casual dining
+dietary_options: []
+top_dishes:
+  - burger
+  - sandwich
+  - salads
+best_for:
+  - breakfast
+  - brunch
+  - lunch
+tags:
+  - food
+  - east nashville
+nearish: []
+recommendation: >-
+  Fresh ingredient cafe. Good, chill vibe. Everything is seasonal but the burger
+  and sandwiches are always good.
+image: ../images/unknown.jpg
+permalink: ''
+rating_proxy: 7.8
+hours:
+  sunday:
+    - open: '7:00 AM'
+      close: '4:00 PM'
+  monday:
+    - open: '7:00 AM'
+      close: '5:00 PM'
+  tuesday:
+    - open: '7:00 AM'
+      close: '5:00 PM'
+  wednesday:
+    - open: '7:00 AM'
+      close: '5:00 PM'
+  thursday:
+    - open: '7:00 AM'
+      close: '5:00 PM'
+  friday:
+    - open: '7:00 AM'
+      close: '5:00 PM'
+  saturday:
+    - open: '7:00 AM'
+      close: '4:00 PM'
+timezone: America/Chicago
+google_place_id: ChIJpxXKaIJnZIgRPDsRhy8_yuw
+---
+
+# Flora + Fauna Cafe
+
+![Flora + Fauna Cafe](../images/unknown.jpg)
+
+**Neighborhood:** East Nashville
+**Price:** $
+**Vibe tags:** food, east nashville
+
+## Why it's worth it
+Fresh ingredient cafe. Good, chill vibe. Everything is seasonal but the burger and sandwiches are always good.
+
+## Top picks
+- burger
+- sandwich
+- salads
+
+## Good for
+breakfast, brunch, lunch
+
+## Quick details
+- Address: 747 Douglas Ave, Nashville, TN 37207
+- Map: https://maps.app.goo.gl/ooanAKEo5R5zh8XY8
+- Website: https://www.florafaunanashville.com/
+---
+name: Folk
+cuisine: Food & Drink
+location:
+  city: Nashville
+  neighborhood: East Nashville
+coordinates:
+  lat: 36.1855645
+  lng: -86.7679768
+address: '823 Meridian St, Nashville, TN 37207'
+maps_url: 'https://maps.app.goo.gl/B7zEyJAzmjLgnG969'
+phone: ''
+website: 'https://www.goodasfolk.com/menu#menu01'
+price_range: $$$
+dining_type: casual dining
+dietary_options: []
+top_dishes:
+  - seasonal pizza
+  - classic pizza
+  - focaccia
+  - heritage coppa
+  - dessert
+best_for:
+  - dinner (nice)
+tags:
+  - food
+  - east nashville
+nearish:
+  - Redheaded Stranger
+recommendation: >-
+  New Italian, great vibe and great food. Definitely get a dessert with the
+  pairing.
+image: ../images/unknown.jpg
+permalink: ''
+rating_proxy: 8.9
+hours:
+  sunday:
+    - open: '5:00 PM'
+      close: '9:00 PM'
+  monday:
+    - open: '5:00 PM'
+      close: '9:00 PM'
+  tuesday:
+    - open: '5:00 PM'
+      close: '9:00 PM'
+  wednesday:
+    - open: '5:00 PM'
+      close: '9:00 PM'
+  thursday:
+    - open: '5:00 PM'
+      close: '10:00 PM'
+  friday:
+    - open: '5:00 PM'
+      close: '10:00 PM'
+  saturday:
+    - open: '5:00 PM'
+      close: '10:00 PM'
+timezone: America/Chicago
+google_place_id: ChIJERh-40NnZIgRbO9_7R21HJA
+---
+
+# Folk
+
+![Folk](../images/unknown.jpg)
+
+**Neighborhood:** East Nashville
+**Price:** $
+**Vibe tags:** food, east nashville
+
+## Why it's worth it
+New Italian, great vibe and great food. Definitely get a dessert with the pairing.
+
+## Top picks
+- seasonal pizza
+- classic pizza
+- focaccia
+- heritage coppa
+- dessert
+
+## Good for
+dinner (nice)
+
+## Quick details
+- Address: 823 Meridian St, Nashville, TN 37207
+- Map: https://maps.app.goo.gl/B7zEyJAzmjLgnG969
+- Website: https://www.goodasfolk.com/menu#menu01
+---
+name: Iggy's
+cuisine: Food & Drink
+location:
+  city: Nashville
+  neighborhood: Wedgewood Houston
+coordinates:
+  lat: 36.1397298
+  lng: -86.77049330000001
+address: 609 Merritt Ave
+maps_url: 'https://maps.app.goo.gl/FUSXa4PReRuWKXio7'
+phone: ''
+website: 'https://www.iggysnashville.com/'
+price_range: $$$
+dining_type: casual dining
+dietary_options: []
+top_dishes:
+  - pasta
+  - negroni
+best_for:
+  - dinner
+tags:
+  - food
+  - Wedgewood Houston
+nearish:
+  - deli
+  - pizza
+  - bars
+  - shopping
+recommendation: One of the best house-made pasta places we've tried in Nashville.
+image: ../images/iggys.jpg
+permalink: iggys
+rating_proxy: 9.1
+hours:
+  sunday:
+    - open: '5:00 PM'
+      close: '9:00 PM'
+  monday: []
+  tuesday:
+    - open: '5:00 PM'
+      close: '9:00 PM'
+  wednesday:
+    - open: '5:00 PM'
+      close: '9:00 PM'
+  thursday:
+    - open: '5:00 PM'
+      close: '9:00 PM'
+  friday:
+    - open: '5:00 PM'
+      close: '9:30 PM'
+  saturday:
+    - open: '5:00 PM'
+      close: '9:30 PM'
+timezone: America/Chicago
+google_place_id: ChIJ36D3YW9nZIgRhyKtndUp6E0
+---
+
+# Iggy's
+
+![Iggy's](../images/iggys.jpg)
+
+**Neighborhood:** Wedgewood Houston
+**Price:** $
+**Vibe tags:** food, Wedgewood Houston
+
+## Why it's worth it
+One of the best house-made pasta places we've tried in Nashville.
+
+## Top picks
+- pasta
+- negroni
+
+## Good for
+dinner
+
+## Quick details
+- Address: 609 Merritt Ave
+- Map: https://maps.app.goo.gl/FUSXa4PReRuWKXio7
+- Website: https://www.iggysnashville.com/
+---
+name: Joyland
+cuisine: Food & Drink
+location:
+  city: Nashville
+  neighborhood: East Nashville
+coordinates:
+  lat: 36.175117
+  lng: -86.7566362
+address: '901 Woodland St, Nashville, TN 37206'
+maps_url: 'https://maps.app.goo.gl/Coc4w3UPzPRjsYkM7'
+phone: ''
+website: 'https://eatjoyland.com/'
+price_range: $$
+dining_type: casual dining
+dietary_options: []
+top_dishes:
+  - crustburger (super smashed)
+  - chicago dog
+  - curly fries
+best_for:
+  - breakfast
+  - lunch
+  - dinner (fast)
+tags:
+  - food
+  - east nashville
+nearish: []
+recommendation: 'Fast food, made to order with quality ingredients.'
+image: ../images/unknown.jpg
+permalink: ''
+rating_proxy: 7.7
+hours:
+  sunday:
+    - open: '8:00 AM'
+      close: '10:00 PM'
+  monday:
+    - open: '8:00 AM'
+      close: '10:00 PM'
+  tuesday:
+    - open: '8:00 AM'
+      close: '10:00 PM'
+  wednesday:
+    - open: '8:00 AM'
+      close: '10:00 PM'
+  thursday:
+    - open: '8:00 AM'
+      close: '10:00 PM'
+  friday:
+    - open: '8:00 AM'
+      close: '12:00 AM'
+  saturday:
+    - open: '8:00 AM'
+      close: '12:00 AM'
+timezone: America/Chicago
+google_place_id: ChIJkdlllKFnZIgRwObuhMjfKmQ
+---
+
+# Joyland
+
+![Joyland](../images/unknown.jpg)
+
+**Neighborhood:** East Nashville
+**Price:** $
+**Vibe tags:** food, east nashville
+
+## Why it's worth it
+Fast food, made to order with quality ingredients.
+
+## Top picks
+- crustburger (super smashed)
+- chicago dog
+- curly fries
+
+## Good for
+breakfast, lunch, dinner (fast)
+
+## Quick details
+- Address: 901 Woodland St, Nashville, TN 37206
+- Map: https://maps.app.goo.gl/Coc4w3UPzPRjsYkM7
+- Website: https://eatjoyland.com/
+---
+name: Kisser
+cuisine: Food & Drink
+location:
+  city: Nashville
+  neighborhood: East Nashville
+coordinates:
+  lat: 36.1938369
+  lng: -86.75384559999999
+address: '747 Douglas Ave, Nashville, TN 37207'
+maps_url: 'https://maps.app.goo.gl/ooanAKEo5R5zh8XY8'
+phone: ''
+website: 'https://www.kisserrestaurant.com/'
+price_range: $$$
+dining_type: casual dining
+dietary_options: []
+top_dishes:
+  - inari
+  - chopped salad
+  - onigiri (yaki and Japanese curry)
+  - egg salad sando (I love roe but not needed)
+  - yellowtail collar
+  - chicken curry rice
+  - creamy bacon udon. All the desserts are excellent.
+best_for:
+  - breakfast
+  - brunch
+  - lunch
+tags:
+  - food
+  - east nashville
+nearish: []
+recommendation: >-
+  An homage to the Japanese *kissaten* -a neighborhood spot serving some of the
+  best Japanese food we've had.
+image: ../images/unknown.jpg
+permalink: ''
+rating_proxy: 9.3
+hours:
+  sunday:
+    - open: '10:00 AM'
+      close: '3:00 PM'
+  monday:
+    - open: '11:00 AM'
+      close: '3:00 PM'
+  tuesday: []
+  wednesday: []
+  thursday:
+    - open: '11:00 AM'
+      close: '3:00 PM'
+  friday:
+    - open: '11:00 AM'
+      close: '3:00 PM'
+  saturday:
+    - open: '10:00 AM'
+      close: '3:00 PM'
+timezone: America/Chicago
+google_place_id: ChIJFWmibsVnZIgRl-ylIKaFJeU
+---
+
+# Kisser
+
+![Kisser](../images/unknown.jpg)
+
+**Neighborhood:** East Nashville
+**Price:** $
+**Vibe tags:** food, east nashville
+
+## Why it's worth it
+An homage to the Japanese *kissaten* -a neighborhood spot serving some of the best Japanese food we've had.
+
+## Top picks
+- inari
+- chopped salad
+- onigiri (yaki and Japanese curry)
+- egg salad sando (I love roe but not needed)
+- yellowtail collar
+- chicken curry rice
+- creamy bacon udon. All the desserts are excellent.
+
+## Good for
+breakfast, brunch, lunch
+
+## Quick details
+- Address: 747 Douglas Ave, Nashville, TN 37207
+- Map: https://maps.app.goo.gl/ooanAKEo5R5zh8XY8
+- Website: https://www.kisserrestaurant.com/
+---
+name: Little Hats Market
+cuisine: Food & Drink
+location:
+  city: Nashville
+  neighborhood: Germantown
+coordinates:
+  lat: 36.1757805
+  lng: -86.786664
+address: '1120 4th Ave N #101, Nashville, TN 37208'
+maps_url: 'https://maps.app.goo.gl/x6fqSLB1uXrJTkui9'
+phone: ''
+website: 'https://www.littlehatsmarket.com/'
+price_range: $$
+dining_type: casual dining
+dietary_options: []
+top_dishes:
+  - 'great pasta and sandwiches: sausage peppers & onions'
+  - chicago style beef (jue on the side)
+  - Bolognese Rigatoni
+best_for:
+  - breakfast
+  - lunch & dinner (and great cocktails)
+tags:
+  - food
+  - germantown
+nearish:
+  - ceremony
+  - reception
+  - coffee
+recommendation: An Italian market and excellent deli counter with something for everyone.
+image: ../images/unknown.jpg
+permalink: ''
+rating_proxy: 8.3
+hours:
+  sunday:
+    - open: '11:00 AM'
+      close: '5:00 PM'
+  monday:
+    - open: '11:00 AM'
+      close: '8:00 PM'
+  tuesday:
+    - open: '11:00 AM'
+      close: '8:00 PM'
+  wednesday:
+    - open: '11:00 AM'
+      close: '8:00 PM'
+  thursday:
+    - open: '11:00 AM'
+      close: '8:00 PM'
+  friday:
+    - open: '11:00 AM'
+      close: '8:00 PM'
+  saturday:
+    - open: '11:00 AM'
+      close: '8:00 PM'
+timezone: America/Chicago
+google_place_id: ChIJa8UmJhxnZIgRyxyjrjvQCGk
+---
+
+# Little Hats Market
+
+![Little Hats Market](../images/unknown.jpg)
+
+**Neighborhood:** Germantown
+**Price:** $
+**Vibe tags:** food, germantown
+
+## Why it's worth it
+An Italian market and excellent deli counter with something for everyone.
+
+## Top picks
+- great pasta and sandwiches: sausage peppers & onions
+- chicago style beef (jue on the side)
+- Bolognese Rigatoni
+
+## Good for
+breakfast, lunch & dinner (and great cocktails)
+
+## Quick details
+- Address: 1120 4th Ave N #101, Nashville, TN 37208
+- Map: https://maps.app.goo.gl/x6fqSLB1uXrJTkui9
+- Website: https://www.littlehatsmarket.com/
+---
+name: Mitchell Delicatessen
+cuisine: Food & Drink
+location:
+  city: Nashville
+  neighborhood: East Nashville
+coordinates:
+  lat: 36.2042637
+  lng: -86.72495119999999
+address: '1306 McGavock Pk, Nashville, TN 37216'
+maps_url: 'https://maps.app.goo.gl/wDRBfZChQszVCcJ28'
+phone: ''
+website: 'http://mitchelldeli.com/'
+price_range: $
+dining_type: casual dining
+dietary_options: []
+top_dishes:
+  - banh mi
+  - smoked bbq beef brisket
+  - asian flank steak
+best_for:
+  - breakfast
+  - lunch
+tags:
+  - food
+  - east nashville
+nearish: []
+recommendation: >-
+  Our go-to sandwich shop. Somehow the sandwiches hit something classic and
+  unexpected at the same time. You really can't go wrong.
+image: ../images/unknown.jpg
+permalink: ''
+rating_proxy: 8.9
+hours:
+  sunday:
+    - open: '8:00 AM'
+      close: '4:00 PM'
+  monday:
+    - open: '8:00 AM'
+      close: '4:00 PM'
+  tuesday:
+    - open: '8:00 AM'
+      close: '4:00 PM'
+  wednesday:
+    - open: '8:00 AM'
+      close: '4:00 PM'
+  thursday:
+    - open: '8:00 AM'
+      close: '4:00 PM'
+  friday:
+    - open: '8:00 AM'
+      close: '4:00 PM'
+  saturday:
+    - open: '8:00 AM'
+      close: '4:00 PM'
+timezone: America/Chicago
+google_place_id: ChIJi_2pVRZoZIgRoMLgiz2MMEM
+---
+
+# Mitchell Delicatessen
+
+![Mitchell Delicatessen](../images/unknown.jpg)
+
+**Neighborhood:** East Nashville
+**Price:** $
+**Vibe tags:** food, east nashville
+
+## Why it's worth it
+Our go-to sandwich shop. Somehow the sandwiches hit something classic and unexpected at the same time. You really can't go wrong.
+
+## Top picks
+- banh mi
+- smoked bbq beef brisket
+- asian flank steak
+
+## Good for
+breakfast, lunch
+
+## Quick details
+- Address: 1306 McGavock Pk, Nashville, TN 37216
+- Map: https://maps.app.goo.gl/wDRBfZChQszVCcJ28
+- Website: http://mitchelldeli.com/
+---
+name: Mr. Aaron's Goods
+cuisine: Food & Drink
+location:
+  city: Nashville
+  neighborhood: East Nashville
+coordinates:
+  lat: 36.224451099999996
+  lng: -86.7253135
+address: '4204 Gallatin Pike, Nashville, TN 37216'
+maps_url: 'https://maps.app.goo.gl/ZWkGto8vPJAXCTr9A'
+phone: ''
+website: 'https://mraaronsgoods.com/'
+price_range: $$
+dining_type: casual dining
+dietary_options: []
+top_dishes:
+  - pork roll egg & cheese (or whatever sounds good) on an onion bagel
+best_for:
+  - breakfast
+  - lunch
+tags:
+  - food
+  - east nashville
+nearish: []
+recommendation: Fantastic bagels and bagel sandwiches.
+image: ../images/unknown.jpg
+permalink: ''
+rating_proxy: 8.8
+hours:
+  sunday:
+    - open: '8:00 AM'
+      close: '1:00 PM'
+  monday: []
+  tuesday:
+    - open: '7:30 AM'
+      close: '1:00 PM'
+  wednesday:
+    - open: '7:30 AM'
+      close: '1:00 PM'
+  thursday:
+    - open: '7:30 AM'
+      close: '1:00 PM'
+  friday:
+    - open: '7:30 AM'
+      close: '1:00 PM'
+  saturday:
+    - open: '8:00 AM'
+      close: '1:00 PM'
+timezone: America/Chicago
+google_place_id: ChIJtdxx1l5DZIgRRYwqo_Owymk
+---
+
+# Mr. Aaron's Goods
+
+![Mr. Aaron's Goods](../images/unknown.jpg)
+
+**Neighborhood:** East Nashville
+**Price:** $
+**Vibe tags:** food, east nashville
+
+## Why it's worth it
+Fantastic bagels and bagel sandwiches.
+
+## Top picks
+- pork roll egg & cheese (or whatever sounds good) on an onion bagel
+
+## Good for
+breakfast, lunch
+
+## Quick details
+- Address: 4204 Gallatin Pike, Nashville, TN 37216
+- Map: https://maps.app.goo.gl/ZWkGto8vPJAXCTr9A
+- Website: https://mraaronsgoods.com/
+---
+name: Peg Leg Porker
+cuisine: Food & Drink
+location:
+  city: Nashville
+  neighborhood: Pie Town
+coordinates:
+  lat: 36.1517647
+  lng: -86.7811177
+address: '903 Gleaves St, Nashville, TN 37203'
+maps_url: 'https://maps.app.goo.gl/AxU7WL9gDkraP9Cs6'
+phone: ''
+website: 'http://www.peglegporker.com/'
+price_range: $$
+dining_type: casual dining
+dietary_options: []
+top_dishes:
+  - pasta
+  - negroni
+best_for:
+  - lunch
+  - dinner
+tags:
+  - food
+  - Pie Town
+nearish:
+  - the gulch
+  - downtown
+recommendation: Just excellent pulled pork BBQ
+image: ../images/peg_leg.jpg
+permalink: peg_leg
+rating_proxy: 8.7
+hours:
+  sunday:
+    - open: '11:00 AM'
+      close: '4:00 PM'
+  monday:
+    - open: '11:00 AM'
+      close: '9:00 PM'
+  tuesday:
+    - open: '11:00 AM'
+      close: '9:00 PM'
+  wednesday:
+    - open: '11:00 AM'
+      close: '10:00 PM'
+  thursday:
+    - open: '11:00 AM'
+      close: '10:00 PM'
+  friday:
+    - open: '11:00 AM'
+      close: '10:00 PM'
+  saturday:
+    - open: '11:00 AM'
+      close: '10:00 PM'
+timezone: America/Chicago
+google_place_id: ChIJZ8YL0mFmZIgRk8iaOW99B9c
+---
+
+# Peg Leg Porker
+
+![Peg Leg Porker](../images/peg_leg.jpg)
+
+**Neighborhood:** Pie Town
+**Price:** $
+**Vibe tags:** food, Pie Town
+
+## Why it's worth it
+Just excellent pulled pork BBQ
+
+## Top picks
+- pasta
+- negroni
+
+## Good for
+lunch, dinner
+
+## Quick details
+- Address: 903 Gleaves St, Nashville, TN 37203
+- Map: https://maps.app.goo.gl/AxU7WL9gDkraP9Cs6
+- Website: http://www.peglegporker.com/
+---
+name: Peninsula
+cuisine: Food & Drink
+location:
+  city: Nashville
+  neighborhood: East Nashville
+coordinates:
+  lat: 36.18387
+  lng: -86.74999059999999
+address: '1035 W Eastland Ave, Nashville, TN 37206'
+maps_url: 'https://maps.app.goo.gl/XkJw752mVPwkUibr8'
+phone: ''
+website: 'http://peninsulanashville.com/'
+price_range: $$$
+dining_type: casual dining
+dietary_options: []
+top_dishes:
+  - cucumber/melon
+  - endive
+  - beet
+  - chewy rice
+  - mussels
+  - and for dessert the marzipan with pairing.
+best_for:
+  - dinner (nice)
+tags:
+  - food
+  - east nashville
+nearish:
+  - Redheaded Stranger
+recommendation: >-
+  One of our favorite restaurants anywhere. Imagine the kind of food you get on
+  an excellent tasting menu but… it's à la carte…
+image: ../images/unknown.jpg
+permalink: ''
+rating_proxy: 9.3
+hours:
+  sunday: []
+  monday: []
+  tuesday: []
+  wednesday: []
+  thursday:
+    - open: '5:00 PM'
+      close: '10:00 PM'
+  friday:
+    - open: '5:00 PM'
+      close: '10:00 PM'
+  saturday:
+    - open: '5:00 PM'
+      close: '10:00 PM'
+timezone: America/Chicago
+google_place_id: ChIJ1_TwUtBnZIgRMBWrg2FzLYA
+---
+
+# Peninsula
+
+![Peninsula](../images/unknown.jpg)
+
+**Neighborhood:** East Nashville
+**Price:** $
+**Vibe tags:** food, east nashville
+
+## Why it's worth it
+One of our favorite restaurants anywhere. Imagine the kind of food you get on an excellent tasting menu but… it's à la carte…
+
+## Top picks
+- cucumber/melon
+- endive
+- beet
+- chewy rice
+- mussels
+- and for dessert the marzipan with pairing.
+
+## Good for
+dinner (nice)
+
+## Quick details
+- Address: 1035 W Eastland Ave, Nashville, TN 37206
+- Map: https://maps.app.goo.gl/XkJw752mVPwkUibr8
+- Website: http://peninsulanashville.com/
+---
+name: Redheaded Stranger
+cuisine: Food & Drink
+location:
+  city: Nashville
+  neighborhood: East Nashville
+coordinates:
+  lat: 36.1850611
+  lng: -86.7679259
+address: '305 Arrington St, Nashville, TN 37207'
+maps_url: 'https://maps.app.goo.gl/HGZXwo7a8n7L8up59'
+phone: ''
+website: 'http://redheadedstrangertacos.com/'
+price_range: $$
+dining_type: casual dining
+dietary_options: []
+top_dishes:
+  - RHS Burrito (we go regular but veggie option available)
+  - Burger (hatch chilles
+  - 'come on!) and the #1'
+  - >-
+    #5 and #7 tacos but you can't really go wrong. Biscuit sandwich (if it's a
+    special that day)
+best_for:
+  - breakfast
+  - lunch
+  - dinner
+tags:
+  - food
+  - east nashville
+nearish: []
+recommendation: A great Southwestern inspiried taco shop with homemade flour tortillas.
+image: ../images/unknown.jpg
+permalink: ''
+rating_proxy: 8.9
+hours:
+  sunday:
+    - open: '8:00 AM'
+      close: '9:00 PM'
+  monday:
+    - open: '10:00 AM'
+      close: '9:00 PM'
+  tuesday:
+    - open: '10:00 AM'
+      close: '9:00 PM'
+  wednesday:
+    - open: '10:00 AM'
+      close: '9:00 PM'
+  thursday:
+    - open: '10:00 AM'
+      close: '9:00 PM'
+  friday:
+    - open: '10:00 AM'
+      close: '10:00 PM'
+  saturday:
+    - open: '8:00 AM'
+      close: '10:00 PM'
+timezone: America/Chicago
+google_place_id: ChIJdciAfitnZIgR8kapD3llC2o
+---
+
+# Redheaded Stranger
+
+![Redheaded Stranger](../images/unknown.jpg)
+
+**Neighborhood:** East Nashville
+**Price:** $
+**Vibe tags:** food, east nashville
+
+## Why it's worth it
+A great Southwestern inspiried taco shop with homemade flour tortillas.
+
+## Top picks
+- RHS Burrito (we go regular but veggie option available)
+- Burger (hatch chilles
+- come on!) and the #1
+- #5 and #7 tacos but you can't really go wrong. Biscuit sandwich (if it's a special that day)
+
+## Good for
+breakfast, lunch, dinner
+
+## Quick details
+- Address: 305 Arrington St, Nashville, TN 37207
+- Map: https://maps.app.goo.gl/HGZXwo7a8n7L8up59
+---
+name: Schulman's
+cuisine: Food & Drink
+location:
+  city: Nashville
+  neighborhood: East Nashville
+coordinates:
+  lat: 36.188833699999996
+  lng: -86.7287934
+address: '1201 Porter Rd, Nashville, TN 37206'
+maps_url: 'https://maps.app.goo.gl/QHktTcT6CajSqw3U6'
+phone: ''
+website: 'https://www.schulmansbar.com/'
+price_range: $
+dining_type: casual dining
+dietary_options: []
+top_dishes:
+  - The burger and fries (and a beer)
+best_for:
+  - lunch
+  - dinner (casual)
+tags:
+  - food
+  - east nashville
+nearish:
+  - Cafe Roze
+  - restaurants
+  - vinyl store
+  - etc.
+recommendation: >-
+  Just an excellent neighborhood bar. Not quite divey. Classic, like stepping
+  back in time. Great vibes and the burger is one of the best in town.
+image: ../images/unknown.jpg
+permalink: ''
+rating_proxy: 8.8
+hours:
+  sunday:
+    - open: '12:00 PM'
+      close: '2:00 AM'
+  monday:
+    - open: '3:00 PM'
+      close: '2:00 AM'
+  tuesday:
+    - open: '3:00 PM'
+      close: '2:00 AM'
+  wednesday:
+    - open: '3:00 PM'
+      close: '2:00 AM'
+  thursday:
+    - open: '3:00 PM'
+      close: '2:00 AM'
+  friday:
+    - open: '3:00 PM'
+      close: '2:00 AM'
+  saturday:
+    - open: '12:00 PM'
+      close: '2:00 AM'
+timezone: America/Chicago
+google_place_id: ChIJ7_YObYRpZIgRDlTG_UPCkeE
+---
+
+# Schulman's
+
+![Schulman's](../images/unknown.jpg)
+
+**Neighborhood:** East Nashville
+**Price:** $
+**Vibe tags:** food, east nashville
+
+## Why it's worth it
+Just an excellent neighborhood bar. Not quite divey. Classic, like stepping back in time. Great vibes and the burger is one of the best in town.
+
+## Top picks
+- The burger and fries (and a beer)
+
+## Good for
+lunch, dinner (casual)
+
+## Quick details
+- Address: 1201 Porter Rd, Nashville, TN 37206
+- Map: https://maps.app.goo.gl/QHktTcT6CajSqw3U6
+- Website: https://www.schulmansbar.com/
+---
+name: The Smiling Elephant
+cuisine: Food & Drink
+location:
+  city: Nashville
+  neighborhood: Historic Waverly
+coordinates:
+  lat: 36.1294578
+  lng: -86.7784827
+address: '2213 8th Ave S, Nashville, TN 37204'
+maps_url: 'https://maps.app.goo.gl/VKbeT9XopmkNxUu26'
+phone: ''
+website: 'http://www.thesmilingelephant.com/'
+price_range: $$
+dining_type: casual dining
+dietary_options: []
+top_dishes:
+  - bao
+  - pad see-ew
+  - pad kra poa
+best_for:
+  - lunch
+  - dinner
+tags:
+  - food
+  - historic waverly
+nearish:
+  - shopping
+  - vintage
+  - bars
+  - tailor
+recommendation: Food truck as food trucks should be. Permanently located near a fun bar.
+image: ../images/smiling-elephant.jpg
+permalink: smiling-elephant
+rating_proxy: 8.4
+hours:
+  sunday: []
+  monday: []
+  tuesday:
+    - open: '11:00 AM'
+      close: '2:30 PM'
+    - open: '5:00 PM'
+      close: '9:00 PM'
+  wednesday:
+    - open: '11:00 AM'
+      close: '2:30 PM'
+    - open: '5:00 PM'
+      close: '9:00 PM'
+  thursday:
+    - open: '11:00 AM'
+      close: '2:30 PM'
+    - open: '5:00 PM'
+      close: '9:00 PM'
+  friday:
+    - open: '11:00 AM'
+      close: '2:30 PM'
+    - open: '4:30 PM'
+      close: '9:00 PM'
+  saturday:
+    - open: '4:30 PM'
+      close: '9:00 PM'
+timezone: America/Chicago
+google_place_id: ChIJc-5jQ9RlZIgRu7Knqi9GGXc
+---
+
+# The Smiling Elephant
+
+![The Smiling Elephant](../images/smiling-elephant.jpg)
+
+**Neighborhood:** Historic Waverly
+**Price:** $
+**Vibe tags:** food, historic waverly
+
+## Why it's worth it
+Food truck as food trucks should be. Permanently located near a fun bar.
+
+## Top picks
+- bao
+- pad see-ew
+- pad kra poa
+
+## Good for
+lunch, dinner
+
+## Quick details
+- Address: 2213 8th Ave S, Nashville, TN 37204
+- Map: https://maps.app.goo.gl/VKbeT9XopmkNxUu26
+- Website: http://www.thesmilingelephant.com/
+---
+name: SS Gai
+cuisine: Food & Drink
+location:
+  city: Nashville
+  neighborhood: East Nashville
+coordinates:
+  lat: 36.1921447
+  lng: -86.74440969999999
+address: '1101 McKennie Ave Bay 3, Nashville, TN 37206'
+maps_url: 'https://maps.app.goo.gl/GQyzsSs7vQqNmfpW8'
+phone: ''
+website: 'https://www.ssgainash.com/'
+price_range: $$
+dining_type: casual dining
+dietary_options: []
+top_dishes:
+  - Thai seasoned grilled and fried chicken
+  - the fried chicken sando (for lunch)
+  - mango fried sticky rice.
+best_for:
+  - lunch
+  - dinner (casual)
+tags:
+  - food
+  - east nashville
+nearish:
+  - coffee
+  - restaurants
+  - vintage stores
+  - etc.
+recommendation: >-
+  The best grilled or fried chicken in our neighborhood. They know Thai flavors
+  and don't disappoint.
+image: ../images/unknown.jpg
+permalink: ''
+rating_proxy: 8.7
+hours:
+  sunday:
+    - open: '11:00 AM'
+      close: '9:00 PM'
+  monday:
+    - open: '11:00 AM'
+      close: '9:00 PM'
+  tuesday: []
+  wednesday: []
+  thursday:
+    - open: '11:00 AM'
+      close: '9:00 PM'
+  friday:
+    - open: '11:00 AM'
+      close: '9:00 PM'
+  saturday:
+    - open: '11:00 AM'
+      close: '9:00 PM'
+timezone: America/Chicago
+google_place_id: ChIJPY1xcBJnZIgRnLM1XF8i8TI
+---
+
+# SS Gai
+
+![SS Gai](../images/unknown.jpg)
+
+**Neighborhood:** East Nashville
+**Price:** $
+**Vibe tags:** food, east nashville
+
+## Why it's worth it
+The best grilled or fried chicken in our neighborhood. They know Thai flavors and don't disappoint.
+
+## Top picks
+- Thai seasoned grilled and fried chicken
+- the fried chicken sando (for lunch)
+- mango fried sticky rice.
+
+## Good for
+lunch, dinner (casual)
+
+## Quick details
+- Address: 1101 McKennie Ave Bay 3, Nashville, TN 37206
+- Map: https://maps.app.goo.gl/GQyzsSs7vQqNmfpW8
+- Website: https://www.ssgainash.com/

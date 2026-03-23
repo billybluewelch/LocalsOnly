@@ -5,31 +5,55 @@ location:
   city: Nashville
   neighborhood: East Nashville
 coordinates:
-  lat: 0.0
-  lng: 0.0
-address: 901 Woodland St, Nashville, TN 37206
-maps_url: https://maps.app.goo.gl/Coc4w3UPzPRjsYkM7
+  lat: 36.175117
+  lng: -86.7566362
+address: '901 Woodland St, Nashville, TN 37206'
+maps_url: 'https://maps.app.goo.gl/Coc4w3UPzPRjsYkM7'
 phone: ''
-website: https://eatjoyland.com/
+website: 'https://eatjoyland.com/'
 price_range: $$
 dining_type: casual dining
 dietary_options: []
 top_dishes:
-- crustburger (super smashed)
-- chicago dog
-- curly fries
+  - crustburger (super smashed)
+  - chicago dog
+  - curly fries
 best_for:
-- breakfast
-- lunch
-- dinner (fast)
+  - breakfast
+  - lunch
+  - dinner
 tags:
-- food
-- east nashville
+  - food
+  - east nashville
 nearish: []
-recommendation: Fast food, made to order with quality ingredients.
+recommendation: 'Fast food, made to order with quality ingredients.'
 image: ../images/unknown.jpg
 permalink: ''
 rating_proxy: 7.7
+hours:
+  sunday:
+    - open: '8:00 AM'
+      close: '10:00 PM'
+  monday:
+    - open: '8:00 AM'
+      close: '10:00 PM'
+  tuesday:
+    - open: '8:00 AM'
+      close: '10:00 PM'
+  wednesday:
+    - open: '8:00 AM'
+      close: '10:00 PM'
+  thursday:
+    - open: '8:00 AM'
+      close: '10:00 PM'
+  friday:
+    - open: '8:00 AM'
+      close: '12:00 AM'
+  saturday:
+    - open: '8:00 AM'
+      close: '12:00 AM'
+timezone: America/Chicago
+google_place_id: ChIJkdlllKFnZIgRwObuhMjfKmQ
 ---
 
 # Joyland
