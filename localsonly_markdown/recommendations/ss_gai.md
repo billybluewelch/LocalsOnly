@@ -33,7 +33,6 @@ recommendation: >-
   The best grilled or fried chicken in our neighborhood. They know Thai flavors
   and don't disappoint.
 image: ../images/unknown.jpg
-permalink: ''
 rating_proxy: 8.7
 hours:
   sunday:

@@ -32,7 +32,6 @@ recommendation: >-
   One of our favorite restaurants anywhere. Imagine the kind of food you get on
   an excellent tasting menu but… it's à la carte…
 image: ../images/unknown.jpg
-permalink: ''
 rating_proxy: 9.3
 hours:
   sunday: []

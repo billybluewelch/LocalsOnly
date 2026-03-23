@@ -31,7 +31,6 @@ tags:
 nearish: []
 recommendation: A great Southwestern inspiried taco shop with homemade flour tortillas.
 image: ../images/unknown.jpg
-permalink: ''
 rating_proxy: 8.9
 hours:
   sunday:

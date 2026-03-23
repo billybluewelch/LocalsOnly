@@ -31,7 +31,6 @@ recommendation: >-
   Just an excellent neighborhood bar. Not quite divey. Classic, like stepping
   back in time. Great vibes and the burger is one of the best in town.
 image: ../images/unknown.jpg
-permalink: ''
 rating_proxy: 8.8
 hours:
   sunday:

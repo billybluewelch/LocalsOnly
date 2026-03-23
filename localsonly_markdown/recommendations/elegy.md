@@ -30,7 +30,6 @@ recommendation: >-
   Our favorite coffee in town with multiple locations. And the breakfast is
   great as well.
 image: ../images/unknown.jpg
-permalink: ''
 rating_proxy: 8.2
 hours:
   sunday:

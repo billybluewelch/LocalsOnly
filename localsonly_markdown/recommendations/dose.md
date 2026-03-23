@@ -25,7 +25,6 @@ tags:
 nearish: []
 recommendation: Really nice cafe with great breakfast and good coffee. Laptop friendly.
 image: ../images/unknown.jpg
-permalink: ''
 rating_proxy: 7.9
 hours:
   sunday:

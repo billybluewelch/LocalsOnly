@@ -28,7 +28,6 @@ tags:
 nearish: []
 recommendation: 'Fast food, made to order with quality ingredients.'
 image: ../images/unknown.jpg
-permalink: ''
 rating_proxy: 7.7
 hours:
   sunday:

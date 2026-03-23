@@ -25,7 +25,6 @@ tags:
 nearish: []
 recommendation: Fantastic bagels and bagel sandwiches.
 image: ../images/unknown.jpg
-permalink: ''
 rating_proxy: 8.8
 hours:
   sunday:

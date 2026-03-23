@@ -30,7 +30,6 @@ recommendation: >-
   Fresh ingredient cafe. Good, chill vibe. Everything is seasonal but the burger
   and sandwiches are always good.
 image: ../images/unknown.jpg
-permalink: ''
 rating_proxy: 7.8
 hours:
   sunday:

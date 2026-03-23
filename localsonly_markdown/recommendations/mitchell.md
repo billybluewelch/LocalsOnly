@@ -29,7 +29,6 @@ recommendation: >-
   Our go-to sandwich shop. Somehow the sandwiches hit something classic and
   unexpected at the same time. You really can't go wrong.
 image: ../images/unknown.jpg
-permalink: ''
 rating_proxy: 8.9
 hours:
   sunday:

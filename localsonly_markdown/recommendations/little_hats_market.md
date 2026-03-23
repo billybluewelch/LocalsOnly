@@ -32,7 +32,6 @@ nearish:
   - coffee
 recommendation: An Italian market and excellent deli counter with something for everyone.
 image: ../images/unknown.jpg
-permalink: ''
 rating_proxy: 8.3
 hours:
   sunday:

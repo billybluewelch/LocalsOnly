@@ -30,7 +30,6 @@ recommendation: >-
   thing, you must try this place. Intimate and vibey, the staff, chefs and somm
   are incredible.
 image: ../images/unknown.jpg
-permalink: ''
 rating_proxy: 9.6
 hours:
   sunday:

@@ -490,7 +490,13 @@ function buildCanonicalFrontmatter(data) {
   }
 
   if (hasOwn(data, "permalink")) {
-    canonical.permalink = cleanString(data.permalink);
+    const permalink = cleanString(data.permalink);
+
+    if (permalink) {
+      canonical.permalink = permalink;
+    } else {
+      actions.push("empty permalink removed");
+    }
   }
 
   if (hasOwn(data, "rating_proxy")) {

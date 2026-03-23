@@ -34,7 +34,6 @@ recommendation: >-
   An homage to the Japanese *kissaten* -a neighborhood spot serving some of the
   best Japanese food we've had.
 image: ../images/unknown.jpg
-permalink: ''
 rating_proxy: 9.3
 hours:
   sunday:

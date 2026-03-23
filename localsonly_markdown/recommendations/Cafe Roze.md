@@ -39,7 +39,6 @@ recommendation: >-
   Our go-to neighborhood restaurant. They're open 7 days a week for breakfast,
   lunch and dinner. I'd say grab a reservation if you plan to visit.
 image: ../images/unknown.jpg
-permalink: ''
 rating_proxy: 9.2
 hours:
   sunday:

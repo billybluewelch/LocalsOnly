@@ -31,7 +31,6 @@ recommendation: >-
   New Italian, great vibe and great food. Definitely get a dessert with the
   pairing.
 image: ../images/unknown.jpg
-permalink: ''
 rating_proxy: 8.9
 hours:
   sunday:

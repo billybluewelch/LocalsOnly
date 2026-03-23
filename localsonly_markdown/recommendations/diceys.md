@@ -32,7 +32,6 @@ recommendation: >-
   available. Great salads. You can't go wrong. Great wine/beer selection as
   well.
 image: ../images/unknown.jpg
-permalink: ''
 rating_proxy: 8.6
 hours:
   sunday:
