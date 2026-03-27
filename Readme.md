@@ -174,4 +174,3 @@ hours_of_operation:
 ### Vital “gotchas” (so you don’t lose time)
 - **YAML must be valid** (quotes on strings with special chars, no tabs, consistent indentation).
 - **`permalink` must be unique** across all markdown files.
-

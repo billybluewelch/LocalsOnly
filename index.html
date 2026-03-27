@@ -49,21 +49,14 @@
           <div class="cta-block">
             <form id="searchForm" class="cta-form">
               <div class="cta-row">
-                <select name="category" required>
+                <select name="category" id="categorySelect" required>
                   <option value="" disabled selected>Category</option>
-                  <option>Food & Drink</option>
-                  <option>Coffee</option>
-                  <option>Brunch</option>
-                  <option>Fitness</option>
-                  <option>Services</option>
-                  <option>Shopping</option>
-                  <option>Things To Do</option>
-                  <option>Family</option>
-                  <option>Nightlife</option>
                 </select>
 
                 <select name="neighborhood" id="neighborhoodSelect" required>
-                  <option value="" disabled selected>Select a neighborhood</option>
+                  <option value="" disabled selected>
+                    Select a neighborhood
+                  </option>
                 </select>
               </div>
 
@@ -98,7 +91,6 @@
               <button class="btn cta-primary" type="submit">
                 Get recommendations
               </button>
-
             </form>
           </div>
 

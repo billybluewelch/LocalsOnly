@@ -1,6 +1,6 @@
 ---
 name: Joyland
-cuisine: Food & Drink
+cuisine: Burgers, Hotdogs
 location:
   city: Nashville
   neighborhood: East Nashville
@@ -27,7 +27,7 @@ tags:
   - east nashville
 nearish: []
 recommendation: 'Fast food, made to order with quality ingredients.'
-image: ../images/unknown.jpg
+image: images/_joyland.jpeg
 rating_proxy: 7.7
 hours:
   sunday:
@@ -57,7 +57,7 @@ google_place_id: ChIJkdlllKFnZIgRwObuhMjfKmQ
 
 # Joyland
 
-![Joyland](../images/unknown.jpg)
+![Joyland](../../images/_joyland.jpeg)
 
 **Neighborhood:** East Nashville
 **Price:** $

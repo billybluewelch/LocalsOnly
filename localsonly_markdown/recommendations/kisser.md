@@ -1,6 +1,6 @@
 ---
 name: Kisser
-cuisine: Food & Drink
+cuisine: Japanese
 location:
   city: Nashville
   neighborhood: East Nashville
@@ -33,7 +33,7 @@ nearish: []
 recommendation: >-
   An homage to the Japanese *kissaten* -a neighborhood spot serving some of the
   best Japanese food we've had.
-image: ../images/unknown.jpg
+image: images/_kisser.jpg
 rating_proxy: 9.3
 hours:
   sunday:
@@ -59,7 +59,7 @@ google_place_id: ChIJFWmibsVnZIgRl-ylIKaFJeU
 
 # Kisser
 
-![Kisser](../images/unknown.jpg)
+![Kisser](../../images/_kisser.jpg)
 
 **Neighborhood:** East Nashville
 **Price:** $

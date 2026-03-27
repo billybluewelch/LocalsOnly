@@ -1,6 +1,6 @@
 ---
 name: Redheaded Stranger
-cuisine: Food & Drink
+cuisine: Mexican, Tex-Mex
 location:
   city: Nashville
   neighborhood: East Nashville
@@ -30,7 +30,7 @@ tags:
   - east nashville
 nearish: []
 recommendation: A great Southwestern inspiried taco shop with homemade flour tortillas.
-image: ../images/unknown.jpg
+image: images/_redheadedstranger.jpg
 rating_proxy: 8.9
 hours:
   sunday:
@@ -60,7 +60,7 @@ google_place_id: ChIJdciAfitnZIgR8kapD3llC2o
 
 # Redheaded Stranger
 
-![Redheaded Stranger](../images/unknown.jpg)
+![Redheaded Stranger](../../images/_redheadedstranger.jpg)
 
 **Neighborhood:** East Nashville
 **Price:** $

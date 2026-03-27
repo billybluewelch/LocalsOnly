@@ -1,6 +1,6 @@
 ---
 name: Dose
-cuisine: Food & Drink
+cuisine: Coffee & Food
 location:
   city: Nashville
   neighborhood: East Nashville
@@ -24,7 +24,7 @@ tags:
   - east nashville
 nearish: []
 recommendation: Really nice cafe with great breakfast and good coffee. Laptop friendly.
-image: ../images/unknown.jpg
+image: images/_dose.jpeg
 rating_proxy: 7.9
 hours:
   sunday:
@@ -54,7 +54,7 @@ google_place_id: ChIJbbn4VRZoZIgRFJ7mfjEeA0k
 
 # Dose
 
-![Dose](../images/unknown.jpg)
+![Dose](../../images/_dose.jpeg)
 
 **Neighborhood:** East Nashville
 **Price:** $

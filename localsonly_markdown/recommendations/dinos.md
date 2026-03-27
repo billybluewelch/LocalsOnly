@@ -1,6 +1,6 @@
 ---
 name: Dino's
-cuisine: Bar & Burgers
+cuisine: Burgers & Beers
 location:
   city: Nashville
   neighborhood: East Nashville
@@ -31,7 +31,7 @@ nearish:
 recommendation: >-
   A classic dive bar in East Nashville with ice cold beers and excellent
   burgers. It’s perfect for a chill hang in the backyard.
-image: ''
+image: images/_dinos.jpg
 rating_proxy: 4.7
 hours:
   sunday:
@@ -59,6 +59,6 @@ timezone: America/Chicago
 google_place_id: ChIJLftkgNFnZIgRXw2DPxN7rQU
 ---
 # [Dino’s](https://dinosnashville.com/)
-![](../_dinos.jpg)
+![](../../images/_dinos.jpg)
 
 A classic dive bar in East Nashville with ice cold beers and excellent burgers. It’s perfect for a chill hang in the backyard.

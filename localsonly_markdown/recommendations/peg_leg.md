@@ -1,6 +1,6 @@
 ---
 name: Peg Leg Porker
-cuisine: Food & Drink
+cuisine: BBQ
 location:
   city: Nashville
   neighborhood: Pie Town
@@ -27,7 +27,7 @@ nearish:
   - the gulch
   - downtown
 recommendation: Just excellent pulled pork BBQ
-image: ../images/peg_leg.jpg
+image: images/_peg_leg.jpg
 permalink: peg_leg
 rating_proxy: 8.7
 hours:
@@ -58,7 +58,7 @@ google_place_id: ChIJZ8YL0mFmZIgRk8iaOW99B9c
 
 # Peg Leg Porker
 
-![Peg Leg Porker](../images/peg_leg.jpg)
+![Peg Leg Porker](../../images/_peg_leg.jpg)
 
 **Neighborhood:** Pie Town
 **Price:** $

@@ -1,6 +1,6 @@
 ---
 name: Mr. Aaron's Goods
-cuisine: Food & Drink
+cuisine: Bagels & Breakfast
 location:
   city: Nashville
   neighborhood: East Nashville
@@ -24,7 +24,7 @@ tags:
   - east nashville
 nearish: []
 recommendation: Fantastic bagels and bagel sandwiches.
-image: ../images/unknown.jpg
+image: images/_mraarons.jpg
 rating_proxy: 8.8
 hours:
   sunday:
@@ -52,7 +52,7 @@ google_place_id: ChIJtdxx1l5DZIgRRYwqo_Owymk
 
 # Mr. Aaron's Goods
 
-![Mr. Aaron's Goods](../images/unknown.jpg)
+![Mr. Aaron's Goods](../../images/_mraarons.jpg)
 
 **Neighborhood:** East Nashville
 **Price:** $

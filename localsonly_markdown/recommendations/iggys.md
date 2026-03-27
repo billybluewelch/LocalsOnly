@@ -1,6 +1,6 @@
 ---
 name: Iggy's
-cuisine: Food & Drink
+cuisine: Italian
 location:
   city: Nashville
   neighborhood: Wedgewood Houston
@@ -28,7 +28,7 @@ nearish:
   - bars
   - shopping
 recommendation: One of the best house-made pasta places we've tried in Nashville.
-image: ../images/iggys.jpg
+image: images/_iggys.jpg
 permalink: iggys
 rating_proxy: 9.1
 hours:
@@ -57,7 +57,7 @@ google_place_id: ChIJ36D3YW9nZIgRhyKtndUp6E0
 
 # Iggy's
 
-![Iggy's](../images/iggys.jpg)
+![Iggy's](../../images/_iggys.jpg)
 
 **Neighborhood:** Wedgewood Houston
 **Price:** $

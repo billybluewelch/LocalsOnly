@@ -1,6 +1,6 @@
 ---
 name: Flora + Fauna Cafe
-cuisine: Food & Drink
+cuisine: Coffee & Food, Coffee, Breakfast, Lunch
 location:
   city: Nashville
   neighborhood: East Nashville
@@ -29,7 +29,7 @@ nearish: []
 recommendation: >-
   Fresh ingredient cafe. Good, chill vibe. Everything is seasonal but the burger
   and sandwiches are always good.
-image: ../images/unknown.jpg
+image: images/_flora.jpeg
 rating_proxy: 7.8
 hours:
   sunday:
@@ -59,7 +59,7 @@ google_place_id: ChIJpxXKaIJnZIgRPDsRhy8_yuw
 
 # Flora + Fauna Cafe
 
-![Flora + Fauna Cafe](../images/unknown.jpg)
+![Flora + Fauna Cafe](../../images/_flora.jpeg)
 
 **Neighborhood:** East Nashville
 **Price:** $

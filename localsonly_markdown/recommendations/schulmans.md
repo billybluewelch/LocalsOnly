@@ -1,6 +1,6 @@
 ---
 name: Schulman's
-cuisine: Food & Drink
+cuisine: Burgers & Beers
 location:
   city: Nashville
   neighborhood: East Nashville
@@ -30,7 +30,7 @@ nearish:
 recommendation: >-
   Just an excellent neighborhood bar. Not quite divey. Classic, like stepping
   back in time. Great vibes and the burger is one of the best in town.
-image: ../images/unknown.jpg
+image: images/_schulmans.jpg
 rating_proxy: 8.8
 hours:
   sunday:
@@ -60,7 +60,7 @@ google_place_id: ChIJ7_YObYRpZIgRDlTG_UPCkeE
 
 # Schulman's
 
-![Schulman's](../images/unknown.jpg)
+![Schulman's](../../images/_schulmans.jpg)
 
 **Neighborhood:** East Nashville
 **Price:** $

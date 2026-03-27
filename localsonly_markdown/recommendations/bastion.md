@@ -29,7 +29,7 @@ recommendation: >-
   One of the best restaurants, period. If you're into the tasting menu/pairing
   thing, you must try this place. Intimate and vibey, the staff, chefs and somm
   are incredible.
-image: ../images/unknown.jpg
+image: images/_bastion.jpeg
 rating_proxy: 9.6
 hours:
   sunday:
@@ -59,7 +59,7 @@ google_place_id: ChIJIS56-XFmZIgRsvTzijiFReo
 
 # Bastion
 
-![Bastion](../images/unknown.jpg)
+![Bastion](../../images/_bastion.jpeg)
 
 **Neighborhood:** Wedgewood Houston
 **Price:** $

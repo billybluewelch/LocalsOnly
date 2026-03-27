@@ -14,6 +14,22 @@
     sessionStorage.setItem("lo_query", JSON.stringify(q));
   }
 
+  function getSelectedListingId() {
+    try {
+      return sessionStorage.getItem("lo_listing") || null;
+    } catch {
+      return null;
+    }
+  }
+
+  function setSelectedListingId(id) {
+    try {
+      sessionStorage.setItem("lo_listing", id);
+    } catch {
+      // noop
+    }
+  }
+
   function cleanText(value) {
     return (value || "")
       .toString()
@@ -74,7 +90,7 @@
 
     const hay = [
       item.name,
-      item.category,
+      arrifyStrings(item.category).join(" "),
       item.neighborhood,
       (item.tags || []).join(" "),
       (item.best_for || []).join(" "),
@@ -267,6 +283,7 @@
   }
 
   function wireLanding() {
+    populateCategoryDropdown();
     populateNeighborhoodDropdown();
     populateBestForSearchDropdown();
     wireVibeAutocomplete();
@@ -339,6 +356,7 @@
 
         return {
           ...x,
+          id: raw.id || x.id || "",
           neighborhood:
             x.neighborhood ||
             (raw.neighborhoods && raw.neighborhoods[0]) ||
@@ -363,6 +381,7 @@
 
     if (rawData.length) {
       return rawData.map((x) => ({
+        id: x.id,
         name: x.name,
         category: x.category,
         neighborhood:
@@ -482,6 +501,49 @@
     }
   }
 
+  // ---------- Category dropdown ----------
+
+  function getCategoryOptions() {
+    const rawData = Array.isArray(window.LOCALSONLY_DATA)
+      ? window.LOCALSONLY_DATA
+      : [];
+    const source = rawData.length ? rawData : getListings();
+
+    const seen = new Map();
+
+    for (const item of source) {
+      const cats = arrifyStrings(item.category);
+      for (const raw of cats) {
+        const s = cleanText(raw);
+        if (!s) continue;
+        const key = s.toLowerCase();
+        if (!seen.has(key)) {
+          seen.set(key, s);
+        }
+      }
+    }
+
+    return Array.from(seen.values()).sort((a, b) =>
+      a.localeCompare(b, undefined, { sensitivity: "base" })
+    );
+  }
+
+  function populateCategoryDropdown() {
+    const select = $("#categorySelect");
+    if (!select) return;
+
+    const options = getCategoryOptions();
+
+    select.innerHTML = `<option value="" disabled selected>Category</option>`;
+
+    for (const cat of options) {
+      const opt = document.createElement("option");
+      opt.value = cat;
+      opt.textContent = cat;
+      select.appendChild(opt);
+    }
+  }
+
   // ---------- Best-for dropdowns ----------
 
   function populateBestForSearchDropdown() {
@@ -533,7 +595,7 @@
       const q = normFacet(term);
 
       if (!q) {
-        return catalog.slice(0, 8);
+        return catalog;
       }
 
       return catalog
@@ -546,8 +608,7 @@
             b.count - a.count ||
             a.label.localeCompare(b.label, undefined, { sensitivity: "base" })
           );
-        })
-        .slice(0, 8);
+        });
     }
 
     function closeMenu() {
@@ -622,9 +683,10 @@
         return;
       }
 
-      if (e.key === "Enter" && activeIndex >= 0) {
+      if (e.key === "Enter" && visible.length) {
         e.preventDefault();
-        choose(visible[activeIndex].value);
+        const idx = activeIndex >= 0 ? activeIndex : 0;
+        choose(visible[idx].value);
         return;
       }
 
@@ -1040,7 +1102,7 @@
 
       if (q.category) {
         const catNorm = normPlace(q.category);
-        list = list.filter((x) => normPlace(x.category) === catNorm);
+        list = list.filter((x) => arrifyStrings(x.category).some((c) => normPlace(c) === catNorm));
       }
 
       if (q.bestFor) {
@@ -1058,7 +1120,7 @@
         list = list.filter((x) => {
           const hay = [
             x.name,
-            x.category,
+            arrifyStrings(x.category).join(" "),
             x.neighborhood,
             (x.tags || []).join(" "),
             (x.best_for || []).join(" "),
@@ -1132,53 +1194,51 @@
 
         const el = document.createElement("div");
         el.className = "card-item";
+        if (it.id) el.dataset.id = it.id;
+        el.style.cursor = "pointer";
+
+        const thumbHtml =
+          it.image
+            ? `<img class="card-thumb" src="${escapeHtml(it.image)}" alt="${escapeHtml(it.name)}" loading="lazy" />`
+            : "";
+
         el.innerHTML = `
-          <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:24px; width:100%;">
-            <div style="flex:1 1 auto; min-width:0;">
-              <div class="card-name">${escapeHtml(it.name)}</div>
-              <div class="card-meta" style="margin-top:4px;">
-                ${escapeHtml(it.category)} • ${escapeHtml(it.neighborhood)} • ${escapeHtml(it.price)} • ${Number(
+          ${thumbHtml}
+          <div class="card-body">
+            <div class="card-name">${escapeHtml(it.name)}</div>
+            <div class="card-meta" style="margin-top:4px;">
+              ${escapeHtml(arrifyStrings(it.category).join(", "))} • ${escapeHtml(it.neighborhood)} • ${escapeHtml(it.price)} • ${Number(
           it.rating || 0
         ).toFixed(1)}${distText ? " • " + escapeHtml(distText) : ""}
-              </div>
-
-              ${
-                it.why
-                  ? `<div class="card-meta" style="margin-top:12px;">${escapeHtml(
-                      it.why
-                    )}</div>`
-                  : ""
-              }
-
-              ${
-                topDishesText.length
-                  ? `<div class="card-meta card-favorites" style="margin-top:10px;"><strong>Favorites:</strong> ${escapeHtml(
-                      topDishesText.join(", ")
-                    )}</div>`
-                  : ""
-              }
-
-              ${
-                bestForText.length
-                  ? `<div class="card-meta" style="margin-top:8px;"><strong>Best for:</strong> ${escapeHtml(
-                      bestForText.join(", ")
-                    )}</div>`
-                  : ""
-              }
             </div>
 
-            <div
-              class="badge"
-              style="
-                margin-left:auto;
-                flex:0 0 auto;
-                align-self:flex-start;
-                white-space:nowrap;
-                text-align:center;
-                line-height:1.2;
-                padding:10px 16px;
-              "
-            >${escapeHtml(badgeText)}</div>
+            ${
+              it.why
+                ? `<div class="card-meta" style="margin-top:12px;">${escapeHtml(
+                    it.why
+                  )}</div>`
+                : ""
+            }
+
+            ${
+              topDishesText.length
+                ? `<div class="card-meta card-favorites" style="margin-top:10px;"><strong>Favorites:</strong> ${escapeHtml(
+                    topDishesText.join(", ")
+                  )}</div>`
+                : ""
+            }
+
+            ${
+              bestForText.length
+                ? `<div class="card-meta" style="margin-top:8px;"><strong>Best for:</strong> ${escapeHtml(
+                    bestForText.join(", ")
+                  )}</div>`
+                : ""
+            }
+
+            <div style="display:flex; justify-content:flex-end; margin-top:10px;">
+              <div class="badge">${escapeHtml(badgeText)}</div>
+            </div>
           </div>
         `;
         cardsEl.appendChild(el);
@@ -1215,11 +1275,132 @@
       });
     }
 
+    if (cardsEl) {
+      cardsEl.addEventListener("click", (e) => {
+        const card = e.target.closest(".card-item");
+        if (!card) return;
+        if (e.target.closest("a")) return;
+        const id = card.dataset.id;
+        if (!id) return;
+        setSelectedListingId(id);
+        window.location.href = "./listing.html";
+      });
+    }
+
     render();
+  }
+
+  // ---------- Listing detail page ----------
+
+  function wireListing() {
+    const container = $("#listingContent");
+    if (!container) return;
+
+    const id = getSelectedListingId();
+    if (!id) {
+      container.innerHTML = '<p class="muted">No listing selected. <a href="./results.html">Back to results</a></p>';
+      return;
+    }
+
+    const listings = getListings();
+    const it = listings.find((x) => x.id === id);
+
+    if (!it) {
+      container.innerHTML = '<p class="muted">Listing not found. <a href="./results.html">Back to results</a></p>';
+      return;
+    }
+
+    const rawData = Array.isArray(window.LOCALSONLY_DATA)
+      ? window.LOCALSONLY_DATA.find((r) => r.id === id)
+      : null;
+
+    document.title = `LocalsOnly — ${it.name}`;
+
+    const bestForText = arrifyStrings(it.best_for);
+    const topDishesText = arrifyStrings(it.top_dishes);
+    const dietaryText = arrifyStrings(rawData ? rawData.dietary_options : it.dietary_options);
+    const nearishText = arrifyStrings(rawData ? rawData.nearish : it.nearish);
+    const cats = arrifyStrings(it.category);
+
+    container.innerHTML = `
+      <div class="listing-detail">
+        ${
+          it.image
+            ? `<img class="listing-hero-img" src="${escapeHtml(it.image)}" alt="${escapeHtml(it.name)}" />`
+            : ""
+        }
+        <div class="listing-body">
+          <h1 class="listing-name">${escapeHtml(it.name)}</h1>
+          <div class="card-meta" style="margin-top:6px;">
+            ${escapeHtml(cats.join(", "))} • ${escapeHtml(it.neighborhood)} • ${escapeHtml(it.price)} • ${Number(it.rating || 0).toFixed(1)}
+          </div>
+
+          ${
+            it.why
+              ? `<p class="listing-desc">${escapeHtml(it.why)}</p>`
+              : ""
+          }
+
+          ${
+            it.address || it.maps_url
+              ? `<div class="listing-section">
+                  <strong>Address</strong><br/>
+                  ${
+                    it.maps_url
+                      ? `<a href="${escapeHtml(it.maps_url)}" target="_blank" rel="noopener">${escapeHtml(it.address || "View on Google Maps")}</a>`
+                      : escapeHtml(it.address || "")
+                  }
+                </div>`
+              : ""
+          }
+
+          ${
+            it.phone
+              ? `<div class="listing-section"><strong>Phone</strong><br/>${escapeHtml(it.phone)}</div>`
+              : ""
+          }
+
+          ${
+            it.website
+              ? `<div class="listing-section"><strong>Website</strong><br/><a href="${escapeHtml(it.website)}" target="_blank" rel="noopener">${escapeHtml(it.website)}</a></div>`
+              : ""
+          }
+
+          ${
+            topDishesText.length
+              ? `<div class="listing-section"><strong>Favorites</strong><br/>${escapeHtml(topDishesText.join(", "))}</div>`
+              : ""
+          }
+
+          ${
+            bestForText.length
+              ? `<div class="listing-section"><strong>Best for</strong><br/>${escapeHtml(bestForText.join(", "))}</div>`
+              : ""
+          }
+
+          ${
+            dietaryText.length
+              ? `<div class="listing-section"><strong>Dietary options</strong><br/>${escapeHtml(dietaryText.join(", "))}</div>`
+              : ""
+          }
+
+          ${
+            nearishText.length
+              ? `<div class="listing-section"><strong>Nearish</strong><br/>${escapeHtml(nearishText.join(", "))}</div>`
+              : ""
+          }
+
+          <div class="listing-back">
+            <a href="./results.html" class="btn">Back to results</a>
+          </div>
+        </div>
+      </div>
+    `;
   }
 
   document.addEventListener("DOMContentLoaded", () => {
     wireLanding();
     wireResults();
+    wireListing();
   });
 })();

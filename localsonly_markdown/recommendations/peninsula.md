@@ -1,6 +1,6 @@
 ---
 name: Peninsula
-cuisine: Food & Drink
+cuisine: Spanish, French
 location:
   city: Nashville
   neighborhood: East Nashville
@@ -31,7 +31,7 @@ nearish:
 recommendation: >-
   One of our favorite restaurants anywhere. Imagine the kind of food you get on
   an excellent tasting menu but… it's à la carte…
-image: ../images/unknown.jpg
+image: images/_peninsula.jpeg
 rating_proxy: 9.3
 hours:
   sunday: []
@@ -53,7 +53,7 @@ google_place_id: ChIJ1_TwUtBnZIgRMBWrg2FzLYA
 
 # Peninsula
 
-![Peninsula](../images/unknown.jpg)
+![Peninsula](../../images/_peninsula.jpeg)
 
 **Neighborhood:** East Nashville
 **Price:** $

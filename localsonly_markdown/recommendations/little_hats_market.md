@@ -1,6 +1,6 @@
 ---
 name: Little Hats Market
-cuisine: Food & Drink
+cuisine: Italian
 location:
   city: Nashville
   neighborhood: Germantown
@@ -31,7 +31,7 @@ nearish:
   - reception
   - coffee
 recommendation: An Italian market and excellent deli counter with something for everyone.
-image: ../images/unknown.jpg
+image: images/_little_hats.jpeg
 rating_proxy: 8.3
 hours:
   sunday:
@@ -61,7 +61,7 @@ google_place_id: ChIJa8UmJhxnZIgRyxyjrjvQCGk
 
 # Little Hats Market
 
-![Little Hats Market](../images/unknown.jpg)
+![Little Hats Market](../../images/_little_hats.jpeg)
 
 **Neighborhood:** Germantown
 **Price:** $
