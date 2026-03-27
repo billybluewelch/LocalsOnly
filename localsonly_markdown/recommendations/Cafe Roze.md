@@ -38,7 +38,7 @@ nearish: []
 recommendation: >-
   Our go-to neighborhood restaurant. They're open 7 days a week for breakfast,
   lunch and dinner. I'd say grab a reservation if you plan to visit.
-image: ../images/unknown.jpg
+image: images/_cafe_roze.jpeg
 rating_proxy: 9.2
 hours:
   sunday:
@@ -68,7 +68,7 @@ google_place_id: ChIJT-JXAG9oZIgReXQDEafdpIE
 
 # Cafe Roze
 
-![Cafe Roze](../images/unknown.jpg)
+![Cafe Roze](../../images/_cafe_roze.jpeg)
 
 **Neighborhood:** East Nashville
 **Price:** $

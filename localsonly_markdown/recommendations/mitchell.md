@@ -1,6 +1,6 @@
 ---
 name: Mitchell Delicatessen
-cuisine: Food & Drink
+cuisine: Sandwhiches
 location:
   city: Nashville
   neighborhood: East Nashville
@@ -28,7 +28,7 @@ nearish: []
 recommendation: >-
   Our go-to sandwich shop. Somehow the sandwiches hit something classic and
   unexpected at the same time. You really can't go wrong.
-image: ../images/unknown.jpg
+image: images/_mitchell.jpeg
 rating_proxy: 8.9
 hours:
   sunday:
@@ -58,7 +58,7 @@ google_place_id: ChIJi_2pVRZoZIgRoMLgiz2MMEM
 
 # Mitchell Delicatessen
 
-![Mitchell Delicatessen](../images/unknown.jpg)
+![Mitchell Delicatessen](../../images/_mitchell.jpeg)
 
 **Neighborhood:** East Nashville
 **Price:** $

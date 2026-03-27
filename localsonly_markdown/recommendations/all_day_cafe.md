@@ -30,7 +30,7 @@ nearish:
 recommendation: >-
   Just good, all-around food and vibe. Loved the breakfast burrito. Nothing
   crazy, just good ingredients that leave you satisfied.
-image: ../images/all-day.jpg
+image: images/_all_day.jpeg
 permalink: all-day
 rating_proxy: 7.8
 hours:
@@ -75,7 +75,7 @@ google_place_id: ChIJYwlL-ztnZIgRp7wFNOpzYdg
 
 # All Day Café
 
-![All Day Café](../images/all-day.jpg)
+![All Day Café](../../images/_all_day.jpeg)
 
 **Neighborhood:** Germantown
 **Price:** $

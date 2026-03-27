@@ -1,6 +1,6 @@
 ---
 name: Elegy Coffee
-cuisine: Food & Drink
+cuisine: Coffee & Food
 location:
   city: Nashville
   neighborhood: Germantown
@@ -29,7 +29,7 @@ nearish: []
 recommendation: >-
   Our favorite coffee in town with multiple locations. And the breakfast is
   great as well.
-image: ../images/unknown.jpg
+image: images/_elegy.jpeg
 rating_proxy: 8.2
 hours:
   sunday:
@@ -59,7 +59,7 @@ google_place_id: ChIJrfgGh1xnZIgRWOkV6p6Oamc
 
 # Elegy Coffee
 
-![Elegy Coffee](../images/unknown.jpg)
+![Elegy Coffee](../../images/_elegy.jpeg)
 
 **Neighborhood:** Germantown
 **Price:** $

@@ -1,6 +1,6 @@
 ---
 name: The Smiling Elephant
-cuisine: Food & Drink
+cuisine: Thai
 location:
   city: Nashville
   neighborhood: Historic Waverly
@@ -30,7 +30,7 @@ nearish:
   - bars
   - tailor
 recommendation: Food truck as food trucks should be. Permanently located near a fun bar.
-image: ../images/smiling-elephant.jpg
+image: images/_smiling_elephant.jpg
 permalink: smiling-elephant
 rating_proxy: 8.4
 hours:
@@ -65,7 +65,7 @@ google_place_id: ChIJc-5jQ9RlZIgRu7Knqi9GGXc
 
 # The Smiling Elephant
 
-![The Smiling Elephant](../images/smiling-elephant.jpg)
+![The Smiling Elephant](../../images/_smiling_elephant.jpg)
 
 **Neighborhood:** Historic Waverly
 **Price:** $

@@ -1,9 +1,9 @@
 :root {
-  --bg: #0f1115;
-  --panel: #151922;
-  --border: rgba(255, 255, 255, 0.1);
-  --text: #e7e9ee;
-  --muted: #a9afbd;
+  --bg: #ffffff;
+  --panel: #ffffff;
+  --border: rgba(0, 0, 0, 0.18);
+  --text: #1a1a1a;
+  --muted: #6b7280;
 }
 
 * {
@@ -87,7 +87,7 @@ code {
   border: 1px solid var(--border);
 }
 .nav a:hover {
-  color: var(--text);
+  background: rgba(0, 0, 0, 0.05);
 }
 
 .hero {
@@ -143,7 +143,7 @@ h2 {
 
 .cta-block {
   margin: 16px auto 0;
-  width: min(760px, 100%);
+  width: min(640px, 100%);
   border: 1px solid var(--border);
   background: var(--panel);
   border-radius: 10px;
@@ -160,7 +160,7 @@ h2 {
   grid-template-columns: 1fr 1.2fr;
   gap: 10px;
 }
-@media (max-width: 760px) {
+@media (max-width: 640px) {
   .cta-row {
     grid-template-columns: 1fr;
   }
@@ -177,7 +177,7 @@ select {
   outline: none;
 }
 input::placeholder {
-  color: rgba(231, 233, 238, 0.35);
+  color: rgba(0, 0, 0, 0.35);
 }
 
 .btn {
@@ -193,7 +193,7 @@ input::placeholder {
   color: var(--text);
 }
 .btn:hover {
-  border-color: rgba(255, 255, 255, 0.18);
+  border-color: rgba(0, 0, 0, 0.25);
 }
 
 .btn.cta-primary {
@@ -244,7 +244,7 @@ input::placeholder {
   gap: 10px;
   align-items: center;
 }
-@media (max-width: 760px) {
+@media (max-width: 640px) {
   .inline-form {
     grid-template-columns: 1fr;
   }
@@ -265,7 +265,7 @@ input::placeholder {
   grid-template-columns: 1fr 1fr;
   gap: 10px;
 }
-@media (max-width: 760px) {
+@media (max-width: 640px) {
   .grid {
     grid-template-columns: 1fr;
   }
@@ -297,7 +297,7 @@ input::placeholder {
   margin-top: 10px;
   grid-template-columns: 1fr auto;
 }
-@media (max-width: 760px) {
+@media (max-width: 640px) {
   .filter-row {
     grid-template-columns: 1fr;
   }
@@ -318,14 +318,43 @@ label {
 
 .cards {
   display: grid;
-  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
   margin-top: 10px;
+}
+@media (max-width: 640px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
 }
 .card-item {
   border: 1px solid var(--border);
   background: var(--panel);
-  border-radius: 10px;
-  padding: 12px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+.card-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+}
+
+.card-thumb {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  display: block;
+}
+@media (max-width: 640px) {
+  .card-thumb {
+    height: 280px;
+  }
+}
+
+.card-body {
+  padding: 14px 16px;
 }
 
 .card-top {
@@ -363,8 +392,56 @@ label {
   margin-top: 18px;
 }
 
+/* Listing detail */
+.listing {
+  padding: 24px 0 40px;
+}
+.listing-detail {
+  max-width: 640px;
+}
+.listing-hero-img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  display: block;
+}
+.listing-body {
+  margin-top: 20px;
+}
+.listing-name {
+  font-size: 28px;
+  font-weight: 800;
+  margin: 0;
+}
+.listing-desc {
+  margin-top: 16px;
+  line-height: 1.6;
+  color: var(--text);
+}
+.listing-section {
+  margin-top: 16px;
+  font-size: 14px;
+}
+.listing-section strong {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+}
+.listing-section a {
+  color: var(--text);
+  text-decoration: underline;
+}
+.listing-back {
+  margin-top: 28px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+}
+.listing-back .btn {
+  display: inline-flex;
+}
 
-/*
+
 .autocomplete-shell {
   position: relative;
   flex: 1 1 auto;
@@ -382,9 +459,9 @@ label {
   right: 0;
   z-index: 50;
   background: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 12px;
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
   overflow: hidden;
   max-height: 280px;
   overflow-y: auto;
@@ -394,7 +471,7 @@ label {
   width: 100%;
   border: 0;
   background: #fff;
-  padding: 10px 12px;
+  padding: 10px 14px;
   text-align: left;
   display: flex;
   align-items: center;
@@ -402,19 +479,15 @@ label {
   gap: 12px;
   cursor: pointer;
   font: inherit;
+  font-size: 14px;
+  color: var(--text);
 }
 
 .autocomplete-item:hover,
 .autocomplete-item.is-active {
-  background: rgba(0, 0, 0, 0.05);
-}
-
-.autocomplete-count {
-  opacity: 0.6;
-  font-size: 0.9em;
+  background: rgba(0, 0, 0, 0.06);
 }
 
 .card-favorites strong {
   font-weight: 700;
-} 
-*/
+}

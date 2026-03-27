@@ -1,6 +1,6 @@
 ---
 name: Dicey's Tavern
-cuisine: Food & Drink
+cuisine: Pizza
 location:
   city: Nashville
   neighborhood: Wedgewood Houston
@@ -31,7 +31,7 @@ recommendation: >-
   Chicago style tavern pizza. Thin, thin crust. Great topptings. Gluten-free
   available. Great salads. You can't go wrong. Great wine/beer selection as
   well.
-image: ../images/unknown.jpg
+image: images/_diceys.jpeg
 rating_proxy: 8.6
 hours:
   sunday:
@@ -61,7 +61,7 @@ google_place_id: ChIJ6aD--z9nZIgRIqFeRppZP9U
 
 # Dicey's Tavern
 
-![Dicey's Tavern](../images/unknown.jpg)
+![Dicey's Tavern](../../images/_diceys.jpeg)
 
 **Neighborhood:** Wedgewood Houston
 **Price:** $

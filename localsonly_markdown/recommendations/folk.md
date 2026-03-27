@@ -1,6 +1,6 @@
 ---
 name: Folk
-cuisine: Food & Drink
+cuisine: Pizza, American, Vegetables
 location:
   city: Nashville
   neighborhood: East Nashville
@@ -30,7 +30,7 @@ nearish:
 recommendation: >-
   New Italian, great vibe and great food. Definitely get a dessert with the
   pairing.
-image: ../images/unknown.jpg
+image: images/_folk.jpeg
 rating_proxy: 8.9
 hours:
   sunday:
@@ -60,7 +60,7 @@ google_place_id: ChIJERh-40NnZIgRbO9_7R21HJA
 
 # Folk
 
-![Folk](../images/unknown.jpg)
+![Folk](../../images/_folk.jpeg)
 
 **Neighborhood:** East Nashville
 **Price:** $

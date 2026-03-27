@@ -1,6 +1,6 @@
 ---
 name: Brave Idiot
-cuisine: Food & Drink
+cuisine: Hot Chicken, Burgers
 location:
   city: Nashville
   neighborhood: East Nashville
@@ -29,7 +29,7 @@ nearish:
   - cocktails
   - bars
 recommendation: Food truck as food trucks should be. Permanently located near a fun bar.
-image: ../images/brave-idiot.jpg
+image: images/_brave_idiot.jpg
 permalink: brave-idiot
 rating_proxy: 7.2
 hours:
@@ -52,7 +52,7 @@ google_place_id: ChIJ5Shlf8JnZIgROcqohmMt8Ts
 
 # Brave Idiot
 
-![Brave Idiot](../images/brave-idiot.jpg)
+![Brave Idiot](../../images/_brave_idiot.jpg)
 
 **Neighborhood:** East Nashville
 **Price:** $

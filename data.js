@@ -5,7 +5,9 @@ window.LOCALSONLY_DATA = [
   {
     "id": "all-day",
     "name": "All Day Cafe",
-    "category": "Food & Drink",
+    "category": [
+      "Food & Drink"
+    ],
     "neighborhoods": [
       "Germantown"
     ],
@@ -20,7 +22,7 @@ window.LOCALSONLY_DATA = [
     "website": "https://www.waymoresnashville.com/restaurants-east-nashville",
     "address": "811 Main St, Nashville, TN 37206",
     "maps_url": "https://maps.app.goo.gl/VkRfRXHuMYfSxf9S9",
-    "image": "../images/all-day.jpg",
+    "image": "images/_all_day.jpeg",
     "top_dishes": [
       "breakfast burrito",
       "greek salad"
@@ -121,7 +123,9 @@ window.LOCALSONLY_DATA = [
   {
     "id": "bastion",
     "name": "Bastion",
-    "category": "Food & Drink",
+    "category": [
+      "Food & Drink"
+    ],
     "neighborhoods": [
       "Wedgewood Houston"
     ],
@@ -136,7 +140,7 @@ window.LOCALSONLY_DATA = [
     "website": "http://www.bastionnashville.com/",
     "address": "434 Houston St STE 110, Nashville, TN 37203",
     "maps_url": "https://maps.app.goo.gl/RTRUvWG35qR1FSVR7",
-    "image": "../images/unknown.jpg",
+    "image": "images/_bastion.jpeg",
     "top_dishes": [
       "tasting menu",
       "get the pairing but split it with someone or three people"
@@ -207,7 +211,10 @@ window.LOCALSONLY_DATA = [
   {
     "id": "brave-idiot",
     "name": "Brave Idiot",
-    "category": "Food & Drink",
+    "category": [
+      "Hot Chicken",
+      "Burgers"
+    ],
     "neighborhoods": [
       "East Nashville"
     ],
@@ -222,7 +229,7 @@ window.LOCALSONLY_DATA = [
     "website": "http://braveidiot.com/",
     "address": "Parked behind No Quarter, 922 Main St, Nashville, TN 37206",
     "maps_url": "https://maps.app.goo.gl/oLpUkgEBLsbre7GT9",
-    "image": "../images/brave-idiot.jpg",
+    "image": "images/_brave_idiot.jpg",
     "top_dishes": [
       "nashville hot chicken",
       "chicken sandwich"
@@ -276,7 +283,9 @@ window.LOCALSONLY_DATA = [
   {
     "id": "Cafe Roze",
     "name": "Cafe Roze",
-    "category": "Food & Drink",
+    "category": [
+      "Food & Drink"
+    ],
     "neighborhoods": [
       "East Nashville"
     ],
@@ -291,7 +300,7 @@ window.LOCALSONLY_DATA = [
     "website": "https://www.caferoze.com/",
     "address": "1115 Porter Rd, Nashville, TN 37206",
     "maps_url": "https://maps.app.goo.gl/8ujYR16ccpfKbU669",
-    "image": "../images/unknown.jpg",
+    "image": "images/_cafe_roze.jpeg",
     "top_dishes": [
       "country ham toast",
       "simple breakfast",
@@ -371,7 +380,9 @@ window.LOCALSONLY_DATA = [
   {
     "id": "diceys",
     "name": "Dicey's Tavern",
-    "category": "Food & Drink",
+    "category": [
+      "Pizza"
+    ],
     "neighborhoods": [
       "Wedgewood Houston"
     ],
@@ -386,7 +397,7 @@ window.LOCALSONLY_DATA = [
     "website": "https://www.diceystavern.com/",
     "address": "425 Chestnut St, Nashville, TN 37203",
     "maps_url": "https://maps.app.goo.gl/5UMoS2DufEsA2HnPA",
-    "image": "../images/unknown.jpg",
+    "image": "images/_diceys.jpeg",
     "top_dishes": [
       "classic or specialty pizza (sausage recommended on everything)",
       "peppy boy",
@@ -459,7 +470,9 @@ window.LOCALSONLY_DATA = [
   {
     "id": "dinos",
     "name": "Dino's",
-    "category": "Bar & Burgers",
+    "category": [
+      "Burgers & Beers"
+    ],
     "neighborhoods": [
       "East Nashville"
     ],
@@ -476,7 +489,7 @@ window.LOCALSONLY_DATA = [
     "website": "https://dinosnashville.com/",
     "address": "411 Gallatin Ave, Nashville, TN 37206",
     "maps_url": "https://maps.app.goo.gl/VkRfRXHuMYfSxf9S9",
-    "image": "",
+    "image": "images/_dinos.jpg",
     "top_dishes": [
       "burgers",
       "fries",
@@ -547,7 +560,9 @@ window.LOCALSONLY_DATA = [
   {
     "id": "dose",
     "name": "Dose",
-    "category": "Food & Drink",
+    "category": [
+      "Coffee & Food"
+    ],
     "neighborhoods": [
       "East Nashville"
     ],
@@ -562,7 +577,7 @@ window.LOCALSONLY_DATA = [
     "website": "https://dosenashville.com/pages/riverside",
     "address": "1400 McGavock Pk, Nashville, TN 37216",
     "maps_url": "https://maps.app.goo.gl/LNfiqGEx6Zm9v2r76",
-    "image": "../images/unknown.jpg",
+    "image": "images/_dose.jpeg",
     "top_dishes": [
       "rosemary buscuit sandwich (add provolone and a side of green chili sauce)"
     ],
@@ -630,7 +645,9 @@ window.LOCALSONLY_DATA = [
   {
     "id": "elegy",
     "name": "Elegy Coffee",
-    "category": "Food & Drink",
+    "category": [
+      "Coffee & Food"
+    ],
     "neighborhoods": [
       "Germantown"
     ],
@@ -646,7 +663,7 @@ window.LOCALSONLY_DATA = [
     "website": "https://order.elegycoffee.com/order/elegycoffeegermantown",
     "address": "1390 Adams St Suite 13, Nashville, TN 37208",
     "maps_url": "https://maps.app.goo.gl/ApBMuRTf7g9corHT9",
-    "image": "../images/unknown.jpg",
+    "image": "images/_elegy.jpeg",
     "top_dishes": [
       "drip",
       "best cappuccino in town",
@@ -716,7 +733,12 @@ window.LOCALSONLY_DATA = [
   {
     "id": "flora",
     "name": "Flora + Fauna Cafe",
-    "category": "Food & Drink",
+    "category": [
+      "Coffee & Food",
+      "Coffee",
+      "Breakfast",
+      "Lunch"
+    ],
     "neighborhoods": [
       "East Nashville"
     ],
@@ -731,7 +753,7 @@ window.LOCALSONLY_DATA = [
     "website": "https://www.florafaunanashville.com/",
     "address": "747 Douglas Ave, Nashville, TN 37207",
     "maps_url": "https://maps.app.goo.gl/aW4VMgpNWPTVHf7C7",
-    "image": "../images/unknown.jpg",
+    "image": "images/_flora.jpeg",
     "top_dishes": [
       "burger",
       "sandwich",
@@ -802,7 +824,11 @@ window.LOCALSONLY_DATA = [
   {
     "id": "folk",
     "name": "Folk",
-    "category": "Food & Drink",
+    "category": [
+      "Pizza",
+      "American",
+      "Vegetables"
+    ],
     "neighborhoods": [
       "East Nashville"
     ],
@@ -817,7 +843,7 @@ window.LOCALSONLY_DATA = [
     "website": "https://www.goodasfolk.com/menu#menu01",
     "address": "823 Meridian St, Nashville, TN 37207",
     "maps_url": "https://maps.app.goo.gl/B7zEyJAzmjLgnG969",
-    "image": "../images/unknown.jpg",
+    "image": "images/_folk.jpeg",
     "top_dishes": [
       "seasonal pizza",
       "classic pizza",
@@ -890,7 +916,9 @@ window.LOCALSONLY_DATA = [
   {
     "id": "iggys",
     "name": "Iggy's",
-    "category": "Food & Drink",
+    "category": [
+      "Italian"
+    ],
     "neighborhoods": [
       "Wedgewood Houston"
     ],
@@ -905,7 +933,7 @@ window.LOCALSONLY_DATA = [
     "website": "https://www.iggysnashville.com/",
     "address": "609 Merritt Ave",
     "maps_url": "https://maps.app.goo.gl/FUSXa4PReRuWKXio7",
-    "image": "../images/iggys.jpg",
+    "image": "images/_iggys.jpg",
     "top_dishes": [
       "pasta",
       "negroni"
@@ -973,7 +1001,10 @@ window.LOCALSONLY_DATA = [
   {
     "id": "joyland",
     "name": "Joyland",
-    "category": "Food & Drink",
+    "category": [
+      "Burgers",
+      "Hotdogs"
+    ],
     "neighborhoods": [
       "East Nashville"
     ],
@@ -988,7 +1019,7 @@ window.LOCALSONLY_DATA = [
     "website": "https://eatjoyland.com/",
     "address": "901 Woodland St, Nashville, TN 37206",
     "maps_url": "https://maps.app.goo.gl/Coc4w3UPzPRjsYkM7",
-    "image": "../images/unknown.jpg",
+    "image": "images/_joyland.jpeg",
     "top_dishes": [
       "crustburger (super smashed)",
       "chicago dog",
@@ -1059,7 +1090,9 @@ window.LOCALSONLY_DATA = [
   {
     "id": "kisser",
     "name": "Kisser",
-    "category": "Food & Drink",
+    "category": [
+      "Japanese"
+    ],
     "neighborhoods": [
       "East Nashville"
     ],
@@ -1074,7 +1107,7 @@ window.LOCALSONLY_DATA = [
     "website": "https://www.kisserrestaurant.com/",
     "address": "747 Douglas Ave, Nashville, TN 37207",
     "maps_url": "https://maps.app.goo.gl/ooanAKEo5R5zh8XY8",
-    "image": "../images/unknown.jpg",
+    "image": "images/_kisser.jpg",
     "top_dishes": [
       "inari",
       "chopped salad",
@@ -1139,7 +1172,9 @@ window.LOCALSONLY_DATA = [
   {
     "id": "little_hats_market",
     "name": "Little Hats Market",
-    "category": "Food & Drink",
+    "category": [
+      "Italian"
+    ],
     "neighborhoods": [
       "Germantown"
     ],
@@ -1154,7 +1189,7 @@ window.LOCALSONLY_DATA = [
     "website": "https://www.littlehatsmarket.com/",
     "address": "1120 4th Ave N #101, Nashville, TN 37208",
     "maps_url": "https://maps.app.goo.gl/x6fqSLB1uXrJTkui9",
-    "image": "../images/unknown.jpg",
+    "image": "images/_little_hats.jpeg",
     "top_dishes": [
       "great pasta and sandwiches: sausage peppers & onions",
       "chicago style beef (jue on the side)",
@@ -1230,7 +1265,9 @@ window.LOCALSONLY_DATA = [
   {
     "id": "mitchell",
     "name": "Mitchell Delicatessen",
-    "category": "Food & Drink",
+    "category": [
+      "Sandwhiches"
+    ],
     "neighborhoods": [
       "East Nashville"
     ],
@@ -1245,7 +1282,7 @@ window.LOCALSONLY_DATA = [
     "website": "http://mitchelldeli.com/",
     "address": "1306 McGavock Pk, Nashville, TN 37216",
     "maps_url": "https://maps.app.goo.gl/wDRBfZChQszVCcJ28",
-    "image": "../images/unknown.jpg",
+    "image": "images/_mitchell.jpeg",
     "top_dishes": [
       "banh mi",
       "smoked bbq beef brisket",
@@ -1315,7 +1352,9 @@ window.LOCALSONLY_DATA = [
   {
     "id": "mraarons",
     "name": "Mr. Aaron's Goods",
-    "category": "Food & Drink",
+    "category": [
+      "Bagels & Breakfast"
+    ],
     "neighborhoods": [
       "East Nashville"
     ],
@@ -1330,7 +1369,7 @@ window.LOCALSONLY_DATA = [
     "website": "https://mraaronsgoods.com/",
     "address": "4204 Gallatin Pike, Nashville, TN 37216",
     "maps_url": "https://maps.app.goo.gl/ZWkGto8vPJAXCTr9A",
-    "image": "../images/unknown.jpg",
+    "image": "images/_mraarons.jpg",
     "top_dishes": [
       "pork roll egg & cheese (or whatever sounds good) on an onion bagel"
     ],
@@ -1393,7 +1432,9 @@ window.LOCALSONLY_DATA = [
   {
     "id": "peg_leg",
     "name": "Peg Leg Porker",
-    "category": "Food & Drink",
+    "category": [
+      "BBQ"
+    ],
     "neighborhoods": [
       "Pie Town"
     ],
@@ -1408,7 +1449,7 @@ window.LOCALSONLY_DATA = [
     "website": "http://www.peglegporker.com/",
     "address": "903 Gleaves St, Nashville, TN 37203",
     "maps_url": "https://maps.app.goo.gl/AxU7WL9gDkraP9Cs6",
-    "image": "../images/peg_leg.jpg",
+    "image": "images/_peg_leg.jpg",
     "top_dishes": [
       "pasta",
       "negroni"
@@ -1480,7 +1521,10 @@ window.LOCALSONLY_DATA = [
   {
     "id": "peninsula",
     "name": "Peninsula",
-    "category": "Food & Drink",
+    "category": [
+      "Spanish",
+      "French"
+    ],
     "neighborhoods": [
       "East Nashville"
     ],
@@ -1495,7 +1539,7 @@ window.LOCALSONLY_DATA = [
     "website": "http://peninsulanashville.com/",
     "address": "1035 W Eastland Ave, Nashville, TN 37206",
     "maps_url": "https://maps.app.goo.gl/XkJw752mVPwkUibr8",
-    "image": "../images/unknown.jpg",
+    "image": "images/_peninsula.jpeg",
     "top_dishes": [
       "cucumber/melon",
       "endive",
@@ -1549,7 +1593,10 @@ window.LOCALSONLY_DATA = [
   {
     "id": "Redheaded Stranger",
     "name": "Redheaded Stranger",
-    "category": "Food & Drink",
+    "category": [
+      "Mexican",
+      "Tex-Mex"
+    ],
     "neighborhoods": [
       "East Nashville"
     ],
@@ -1564,7 +1611,7 @@ window.LOCALSONLY_DATA = [
     "website": "http://redheadedstrangertacos.com/",
     "address": "305 Arrington St, Nashville, TN 37207",
     "maps_url": "https://maps.app.goo.gl/HGZXwo7a8n7L8up59",
-    "image": "../images/unknown.jpg",
+    "image": "images/_redheadedstranger.jpg",
     "top_dishes": [
       "RHS Burrito (we go regular but veggie option available)",
       "Burger (hatch chilles",
@@ -1636,7 +1683,9 @@ window.LOCALSONLY_DATA = [
   {
     "id": "schulmans",
     "name": "Schulman's",
-    "category": "Food & Drink",
+    "category": [
+      "Burgers & Beers"
+    ],
     "neighborhoods": [
       "East Nashville"
     ],
@@ -1651,7 +1700,7 @@ window.LOCALSONLY_DATA = [
     "website": "https://www.schulmansbar.com/",
     "address": "1201 Porter Rd, Nashville, TN 37206",
     "maps_url": "https://maps.app.goo.gl/QHktTcT6CajSqw3U6",
-    "image": "../images/unknown.jpg",
+    "image": "images/_schulmans.jpg",
     "top_dishes": [
       "The burger and fries (and a beer)"
     ],
@@ -1724,7 +1773,10 @@ window.LOCALSONLY_DATA = [
   {
     "id": "ss_gai",
     "name": "SS Gai",
-    "category": "Food & Drink",
+    "category": [
+      "Thai",
+      "Fried Chicken"
+    ],
     "neighborhoods": [
       "East Nashville"
     ],
@@ -1739,7 +1791,7 @@ window.LOCALSONLY_DATA = [
     "website": "https://www.ssgainash.com/",
     "address": "1101 McKennie Ave Bay 3, Nashville, TN 37206",
     "maps_url": "https://maps.app.goo.gl/GQyzsSs7vQqNmfpW8",
-    "image": "../images/unknown.jpg",
+    "image": "images/_ss_gai.jpeg",
     "top_dishes": [
       "Thai seasoned grilled and fried chicken",
       "the fried chicken sando (for lunch)",
@@ -1804,7 +1856,9 @@ window.LOCALSONLY_DATA = [
   {
     "id": "smiling-elephant",
     "name": "The Smiling Elephant",
-    "category": "Food & Drink",
+    "category": [
+      "Thai"
+    ],
     "neighborhoods": [
       "Historic Waverly"
     ],
@@ -1819,7 +1873,7 @@ window.LOCALSONLY_DATA = [
     "website": "http://www.thesmilingelephant.com/",
     "address": "2213 8th Ave S, Nashville, TN 37204",
     "maps_url": "https://maps.app.goo.gl/VKbeT9XopmkNxUu26",
-    "image": "../images/smiling-elephant.jpg",
+    "image": "images/_smiling_elephant.jpg",
     "top_dishes": [
       "bao",
       "pad see-ew",

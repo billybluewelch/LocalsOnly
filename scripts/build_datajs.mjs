@@ -37,6 +37,21 @@ function asStringArray(v) {
   return out;
 }
 
+function splitCuisine(v) {
+  const s = asString(v);
+  if (!s) return [];
+  const parts = s.split(",").map((p) => asString(p)).filter(Boolean);
+  const out = [];
+  const seen = new Set();
+  for (const p of parts) {
+    const key = p.toLowerCase();
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(p);
+  }
+  return out;
+}
+
 function asNumber(v, file, keyPath) {
   const n = Number(v);
   if (!Number.isFinite(n)) {
@@ -49,6 +64,7 @@ function normalize(front, file) {
   // Required per your markdown schema
   const name = req(front, "name", file);
   const cuisine = req(front, "cuisine", file);
+  const categories = splitCuisine(cuisine);
 
   const location = req(front, "location", file);
   const neighborhood = req(location, "neighborhood", file);
@@ -79,7 +95,7 @@ function normalize(front, file) {
 
     // current UI-compatible fields
     name,
-    category: cuisine,
+    category: categories,
     neighborhoods: [neighborhood],
     price,
     rating,

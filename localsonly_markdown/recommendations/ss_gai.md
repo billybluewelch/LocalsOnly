@@ -1,6 +1,6 @@
 ---
 name: SS Gai
-cuisine: Food & Drink
+cuisine: Thai, Fried Chicken
 location:
   city: Nashville
   neighborhood: East Nashville
@@ -32,7 +32,7 @@ nearish:
 recommendation: >-
   The best grilled or fried chicken in our neighborhood. They know Thai flavors
   and don't disappoint.
-image: ../images/unknown.jpg
+image: images/_ss_gai.jpeg
 rating_proxy: 8.7
 hours:
   sunday:
@@ -58,7 +58,7 @@ google_place_id: ChIJPY1xcBJnZIgRnLM1XF8i8TI
 
 # SS Gai
 
-![SS Gai](../images/unknown.jpg)
+![SS Gai](../../images/_ss_gai.jpeg)
 
 **Neighborhood:** East Nashville
 **Price:** $
